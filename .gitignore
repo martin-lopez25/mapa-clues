@@ -1,6 +1,8 @@
 node_modules/
 build/
 dist/
+public/data/clues-search-index.json
+public/data/clues-summary.json
 coverage/
 .DS_Store
 *.log

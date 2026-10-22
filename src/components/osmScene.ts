@@ -24,6 +24,7 @@ export interface OsmSceneController {
 
 const OVERVIEW: OsmSceneStatus = { phase: 'overview', buildings: 0, roads: 0, estimated: 0 };
 const SCENE_RADIUS_METERS = 700;
+const SCENE_REBUILD_DISTANCE_METERS = 250;
 const MAX_BUILDING_FEATURES = 1600;
 const MAX_ROAD_FEATURES = 800;
 
@@ -49,7 +50,8 @@ function geometryCenter(geometry: SceneGeometry): [number, number] | null {
 
 export function attachOsmScene(
   map: maplibregl.Map,
-  onStatus: (status: OsmSceneStatus) => void
+  onStatus: (status: OsmSceneStatus) => void,
+  initiallyVisible = true
 ): OsmSceneController {
   const scene = new THREE.Scene();
   const content = new THREE.Group();
@@ -85,9 +87,9 @@ export function attachOsmScene(
   });
   let renderer: THREE.WebGLRenderer | undefined;
   let transform = new THREE.Matrix4();
-  let revision = '';
+  let sceneCenter: [number, number] | null = null;
   let status = OVERVIEW;
-  let neonVisible = true;
+  let neonVisible = initiallyVisible;
   let disposed = false;
 
   const clear = () => {
@@ -107,6 +109,13 @@ export function attachOsmScene(
       const opacity = neonVisible ? (hasCustomBuildings ? 0.18 : 0.62) : 0.82;
       map.setPaintProperty('building-3d', 'fill-extrusion-opacity', opacity);
     }
+  };
+
+  const distanceFromSceneCenter = (center: maplibregl.LngLat) => {
+    if (!sceneCenter) return Number.POSITIVE_INFINITY;
+    const latitudeDistance = (center.lat - sceneCenter[1]) * 111_320;
+    const longitudeDistance = (center.lng - sceneCenter[0]) * 111_320 * Math.cos(center.lat * Math.PI / 180);
+    return Math.hypot(latitudeDistance, longitudeDistance);
   };
 
   map.addLayer({
@@ -141,27 +150,38 @@ export function attachOsmScene(
 
   const rebuild = () => {
     if (disposed) return;
-    if (map.getZoom() < 15) {
-      if (revision === 'overview') return;
-      revision = 'overview';
-      clear();
+    const center = map.getCenter();
+    const atSceneZoom = map.getZoom() >= 15;
+    const canReuseScene = distanceFromSceneCenter(center) <= SCENE_REBUILD_DISTANCE_METERS;
+    if (map.getLayer('osm-country-scene')) {
+      map.setLayoutProperty(
+        'osm-country-scene',
+        'visibility',
+        neonVisible && atSceneZoom && canReuseScene && content.children.length > 0 ? 'visible' : 'none'
+      );
+    }
+
+    if (!atSceneZoom || !neonVisible) {
       setNativeBuildings(false);
-      report(OVERVIEW);
       map.triggerRepaint();
       return;
     }
+    if (canReuseScene) {
+      setNativeBuildings(content.children.length > 0);
+      map.triggerRepaint();
+      return;
+    }
+    setNativeBuildings(false);
     if (!map.isSourceLoaded('openmaptiles')) return;
 
-    const bounds = map.getBounds();
-    const center = map.getCenter();
     const latitudeDelta = SCENE_RADIUS_METERS / 111_320;
     const longitudeDelta = SCENE_RADIUS_METERS /
       (111_320 * Math.max(Math.cos(center.lat * Math.PI / 180), 0.01));
     const bbox: BBox = [
-      Math.max(bounds.getWest(), center.lng - longitudeDelta),
-      Math.max(bounds.getSouth(), center.lat - latitudeDelta),
-      Math.min(bounds.getEast(), center.lng + longitudeDelta),
-      Math.min(bounds.getNorth(), center.lat + latitudeDelta)
+      center.lng - longitudeDelta,
+      center.lat - latitudeDelta,
+      center.lng + longitudeDelta,
+      center.lat + latitudeDelta
     ];
     if (bbox[0] >= bbox[2] || bbox[1] >= bbox[3]) {
       clear();
@@ -170,9 +190,6 @@ export function attachOsmScene(
       map.triggerRepaint();
       return;
     }
-    const nextRevision = `${map.getZoom().toFixed(3)}:${bbox.join(',')}`;
-    if (nextRevision === revision) return;
-    revision = nextRevision;
     report({ ...status, phase: 'loading' });
 
     try {
@@ -187,16 +204,12 @@ export function attachOsmScene(
         return new THREE.Vector2((mercator.x - origin.x) / scale, (origin.y - mercator.y) / scale);
       };
 
-      const buildingFeatures = map.querySourceFeatures('openmaptiles', { sourceLayer: 'building' })
-        .sort((first, second) => {
-          const height = (feature: typeof first) => Number(
-            feature.properties?.render_height ?? feature.properties?.height ??
-            Number(feature.properties?.['building:levels']) * 3
-          ) || 0;
-          return height(second) - height(first);
-        })
-        .slice(0, MAX_BUILDING_FEATURES)
-        .map((feature) => ({ feature, sourceLayer: 'building' }));
+      const sourceFeatures: Array<{ feature: SceneFeature; sourceLayer: 'building' | 'transportation' }> = [
+        ...map.querySourceFeatures('openmaptiles', { sourceLayer: 'building' })
+          .map((feature) => ({ feature: feature as unknown as SceneFeature, sourceLayer: 'building' as const })),
+        ...map.querySourceFeatures('openmaptiles', { sourceLayer: 'transportation' })
+          .map((feature) => ({ feature: feature as unknown as SceneFeature, sourceLayer: 'transportation' as const }))
+      ];
       const roadPriority: Record<string, number> = {
         motorway: 5,
         trunk: 4,
@@ -204,46 +217,57 @@ export function attachOsmScene(
         secondary: 2,
         tertiary: 1
       };
-      const roadFeatures = map.querySourceFeatures('openmaptiles', { sourceLayer: 'transportation' })
-        .sort((first, second) =>
-          (roadPriority[String(second.properties?.class)] ?? 0) -
-          (roadPriority[String(first.properties?.class)] ?? 0)
-        )
-        .slice(0, MAX_ROAD_FEATURES)
-        .map((feature) => ({ feature, sourceLayer: 'transportation' }));
-      const features = [...buildingFeatures, ...roadFeatures];
-
-      clear();
       const seen = new Set<string>();
+      const nearbyFeatures: Array<{
+        feature: SceneFeature;
+        sourceLayer: 'building' | 'transportation';
+        geometry: SceneGeometry;
+      }> = [];
       let buildings = 0;
       let roads = 0;
       let estimated = 0;
 
-      for (const { feature, sourceLayer } of features) {
-        if (sourceLayer === 'building' && buildings >= MAX_BUILDING_FEATURES) continue;
-        if (sourceLayer === 'transportation' && roads >= MAX_ROAD_FEATURES) continue;
+      for (const { feature, sourceLayer } of sourceFeatures) {
         if (!['Polygon', 'MultiPolygon', 'LineString', 'MultiLineString'].includes(feature.geometry.type)) continue;
         if (sourceLayer === 'transportation' && ['rail', 'transit'].includes(String(feature.properties?.class))) continue;
 
-        const featureId = feature.id ?? feature.properties?.osm_id;
-        if (featureId !== undefined && featureId !== null) {
-          const key = `${sourceLayer}:${featureId}`;
-          if (seen.has(key)) continue;
-          seen.add(key);
-        }
-
-        const clipped = bboxClip(feature as unknown as SceneFeature, bbox);
+        const clipped = bboxClip(feature, bbox);
         const featureCenter = geometryCenter(clipped.geometry);
         if (!featureCenter) continue;
         const latitudeDistance = (featureCenter[1] - center.lat) * 111_320;
         const longitudeDistance = (featureCenter[0] - center.lng) * 111_320 *
           Math.cos(center.lat * Math.PI / 180);
         if (Math.hypot(latitudeDistance, longitudeDistance) > SCENE_RADIUS_METERS) continue;
+        const featureId = feature.id ?? feature.properties?.osm_id ?? feature.properties?.name ?? '';
+        const key = `${sourceLayer}:${featureId}:${featureCenter[0].toFixed(5)}:${featureCenter[1].toFixed(5)}`;
+        if (seen.has(key)) continue;
+        seen.add(key);
+        nearbyFeatures.push({ feature, sourceLayer, geometry: clipped.geometry as SceneGeometry });
+      }
+
+      const featureHeight = (feature: SceneFeature) => Number(
+        feature.properties?.render_height ?? feature.properties?.height ??
+        Number(feature.properties?.['building:levels']) * 3
+      ) || 0;
+      const buildingFeatures = nearbyFeatures
+        .filter((candidate) => candidate.sourceLayer === 'building')
+        .sort((first, second) => featureHeight(second.feature) - featureHeight(first.feature))
+        .slice(0, MAX_BUILDING_FEATURES);
+      const roadFeatures = nearbyFeatures
+        .filter((candidate) => candidate.sourceLayer === 'transportation')
+        .sort((first, second) =>
+          (roadPriority[String(second.feature.properties?.class)] ?? 0) -
+          (roadPriority[String(first.feature.properties?.class)] ?? 0)
+        )
+        .slice(0, MAX_ROAD_FEATURES);
+
+      clear();
+      for (const { feature, sourceLayer, geometry: clippedGeometry } of [...buildingFeatures, ...roadFeatures]) {
         const properties = feature.properties ?? {};
         const name = String(properties.name ?? `${sourceLayer}-${feature.id ?? seen.size}`);
 
-        if (sourceLayer === 'building' && ['Polygon', 'MultiPolygon'].includes(clipped.geometry.type)) {
-          const geometry = clipped.geometry as Polygon | MultiPolygon;
+        if (sourceLayer === 'building' && ['Polygon', 'MultiPolygon'].includes(clippedGeometry.type)) {
+          const geometry = clippedGeometry as Polygon | MultiPolygon;
           const polygons = geometry.type === 'Polygon' ? [geometry.coordinates] : geometry.coordinates;
           const suppliedHeight = Number(properties.height ?? properties.render_height);
           const suppliedBase = Number(properties.min_height ?? properties.render_min_height);
@@ -285,8 +309,8 @@ export function attachOsmScene(
             buildings++;
             if (heightEstimated) estimated++;
           }
-        } else if (sourceLayer === 'transportation' && ['LineString', 'MultiLineString'].includes(clipped.geometry.type)) {
-          const geometry = clipped.geometry as LineString | MultiLineString;
+        } else if (sourceLayer === 'transportation' && ['LineString', 'MultiLineString'].includes(clippedGeometry.type)) {
+          const geometry = clippedGeometry as LineString | MultiLineString;
           const lines = geometry.type === 'LineString' ? [geometry.coordinates] : geometry.coordinates;
           const width = ['motorway', 'trunk'].includes(String(properties.class)) ? 7
             : ['primary', 'secondary'].includes(String(properties.class)) ? 5 : 2.5;
@@ -329,7 +353,11 @@ export function attachOsmScene(
         roads,
         estimated_heights: estimated
       };
+      sceneCenter = [center.lng, center.lat];
       setNativeBuildings(buildings > 0);
+      if (map.getLayer('osm-country-scene')) {
+        map.setLayoutProperty('osm-country-scene', 'visibility', neonVisible && buildings > 0 ? 'visible' : 'none');
+      }
       report({ phase: 'ready', buildings, roads, estimated });
       map.triggerRepaint();
     } catch {
@@ -340,9 +368,7 @@ export function attachOsmScene(
   };
 
   const markLoading = () => {
-    revision = '';
-    if (map.getZoom() >= 15) {
-      clear();
+    if (neonVisible && map.getZoom() >= 15 && distanceFromSceneCenter(map.getCenter()) > SCENE_REBUILD_DISTANCE_METERS) {
       report({ ...status, phase: 'loading' });
       map.triggerRepaint();
     }
@@ -354,14 +380,19 @@ export function attachOsmScene(
 
   return {
     setNeonVisible(visible) {
+      if (neonVisible === visible) return;
       neonVisible = visible;
-      if (map.getLayer('osm-country-scene')) {
-        map.setLayoutProperty('osm-country-scene', 'visibility', visible ? 'visible' : 'none');
+      if (visible) {
+        sceneCenter = null;
+        rebuild();
+      } else {
+        if (map.getLayer('osm-country-scene')) map.setLayoutProperty('osm-country-scene', 'visibility', 'none');
+        setNativeBuildings(false);
       }
-      setNativeBuildings(status.phase === 'ready' && status.buildings > 0);
       map.triggerRepaint();
     },
     refresh() {
+      sceneCenter = null;
       markLoading();
       rebuild();
       map.triggerRepaint();

@@ -3,8 +3,9 @@ import { Header } from './components/Header.tsx';
 import { Map3DContainer } from './components/Map3DContainer.tsx';
 import { SearchSuggestions } from './components/SearchSuggestions.tsx';
 import { UnitDetailModal } from './components/UnitDetailModal.tsx';
-import { UnidadMedica, UserCoordinates, GpsStatus } from './types.ts';
+import { MapSearchLocation, UnidadMedica, UserCoordinates, GpsStatus } from './types.ts';
 import { calcularDistanciaHaversineKm, formatearDistancia } from './data/unidadesMedicas.ts';
+import { findStaticCluesNear, searchStaticClues } from './data/cluesStaticSearch.ts';
 
 export default function App() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -12,6 +13,7 @@ export default function App() {
   const [unidades, setUnidades] = useState<UnidadMedica[]>([]);
   const [selectedUnit, setSelectedUnit] = useState<UnidadMedica | null>(null);
   const [detailModalUnit, setDetailModalUnit] = useState<UnidadMedica | null>(null);
+  const [searchLocation, setSearchLocation] = useState<MapSearchLocation | null>(null);
 
   const [userLocation, setUserLocation] = useState<UserCoordinates | null>(null);
   const [gpsStatus, setGpsStatus] = useState<GpsStatus>('idle');
@@ -34,10 +36,16 @@ export default function App() {
     setGlobeIntroComplete(true);
   }, []);
 
+  const handleSearchChange = useCallback((value: string) => {
+    setSearchTerm(value);
+    if (!value.trim()) setSearchLocation(null);
+  }, []);
+
   // Función principal para consultar unidades del backend
   const fetchUnidades = useCallback(async () => {
     if (activeTab === 'todos' && !searchTerm.trim()) {
       setUnidades([]);
+      setSearchLocation(null);
       setIsLoading(false);
       return;
     }
@@ -45,15 +53,22 @@ export default function App() {
     setIsLoading(true);
     try {
       if (activeTab === 'cercanas' && userLocation) {
-        // Modo proximidad GPS: llamar endpoint /api/unidades/cercanas
         const params = new URLSearchParams({
           latitud: userLocation.latitud.toString(),
           longitud: userLocation.longitud.toString(),
           limite: '30'
         });
-        const res = await fetch(`/api/unidades/cercanas?${params.toString()}`);
-        const data = await res.json();
-        let list = data.unidades || [];
+        let list: UnidadMedica[];
+        try {
+          const res = await fetch(`${import.meta.env.BASE_URL}api/unidades/cercanas?${params.toString()}`);
+          if (!res.ok || !res.headers.get('content-type')?.includes('application/json')) {
+            throw new Error('La API de proximidad no está disponible.');
+          }
+          const data = await res.json();
+          list = data.unidades || [];
+        } catch {
+          list = await findStaticCluesNear(userLocation, 30);
+        }
 
         // Si hay búsqueda por texto adicional en modo cercanía, filtrar
         if (searchTerm.trim()) {
@@ -69,23 +84,19 @@ export default function App() {
 
         setUnidades(list);
       } else {
-        const params = new URLSearchParams({ buscar: searchTerm.trim() });
-        const res = await fetch(`/api/unidades?${params.toString()}`);
-        const data = await res.json();
-        let list = data.unidades || [];
-
-        if (searchTerm.trim()) {
-          const cluesParams = new URLSearchParams({ buscar: searchTerm.trim(), limit: '100' });
-          const cluesRes = await fetch(`/api/clues?${cluesParams.toString()}`);
-          if (cluesRes.ok) {
-            const cluesData = await cluesRes.json();
-            const existingClues = new Set(list.map((unidad: UnidadMedica) => unidad.clues));
-            list = [
-              ...list,
-              ...(cluesData.unidades as UnidadMedica[]).filter((unidad) => !existingClues.has(unidad.clues))
-            ];
+        const params = new URLSearchParams({ buscar: searchTerm.trim(), limit: '10' });
+        let data: { unidades: UnidadMedica[]; origen: MapSearchLocation | null };
+        try {
+          const res = await fetch(`${import.meta.env.BASE_URL}api/clues/busqueda?${params.toString()}`);
+          if (!res.ok || !res.headers.get('content-type')?.includes('application/json')) {
+            throw new Error('La API de búsqueda no está disponible.');
           }
+          data = await res.json();
+        } catch {
+          data = await searchStaticClues(searchTerm.trim());
         }
+        let list = data.unidades || [];
+        setSearchLocation(data.origen ?? null);
 
         // Si el usuario tiene ubicación obtenida, adjuntarle distancia calculada
         if (userLocation) {
@@ -166,7 +177,7 @@ export default function App() {
   };
 
   return (
-    <div className="flex flex-col h-screen w-screen overflow-hidden bg-stone-100 font-sans">
+    <div className="flex flex-col h-screen w-screen overflow-hidden bg-stone-100">
       {/* 1. Header Institucional (Top Bar Contract) */}
       <Header
         onLocateUser={handleLocateUser}
@@ -185,6 +196,7 @@ export default function App() {
             selectedUnit={selectedUnit}
             onSelectUnit={handleOpenUnitDetails}
             onSelectMapUnit={handleSelectUnit}
+            searchLocation={searchLocation}
             userLocation={userLocation}
             onLocateUser={handleLocateUser}
             isLocating={isLocating}
@@ -193,9 +205,10 @@ export default function App() {
           <div className="absolute left-4 right-4 top-4 z-30 sm:left-6 sm:right-auto sm:w-[min(420px,calc(100%-3rem))]">
             <SearchSuggestions
               searchTerm={searchTerm}
-              onSearchChange={setSearchTerm}
+              onSearchChange={handleSearchChange}
               unidades={unidades}
               isLoading={isLoading}
+              searchLocation={searchLocation}
               onSelectUnit={handleSelectUnit}
             />
           </div>

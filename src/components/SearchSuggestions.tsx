@@ -1,12 +1,13 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Search, X } from 'lucide-react';
-import type { UnidadMedica } from '../types.ts';
+import type { MapSearchLocation, UnidadMedica } from '../types.ts';
 
 interface SearchSuggestionsProps {
   searchTerm: string;
   onSearchChange: (value: string) => void;
   unidades: UnidadMedica[];
   isLoading: boolean;
+  searchLocation: MapSearchLocation | null;
   onSelectUnit: (unidad: UnidadMedica) => void;
 }
 
@@ -22,6 +23,7 @@ export const SearchSuggestions: React.FC<SearchSuggestionsProps> = ({
   onSearchChange,
   unidades,
   isLoading,
+  searchLocation,
   onSelectUnit
 }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -75,6 +77,12 @@ export const SearchSuggestions: React.FC<SearchSuggestionsProps> = ({
 
       {showSuggestions && (
         <div className="absolute left-0 right-0 top-14 max-h-[min(55vh,440px)] overflow-y-auto rounded-xl border border-white/10 bg-[#071512]/97 py-1 shadow-2xl backdrop-blur-xl">
+          {searchLocation && (
+            <div className="border-b border-white/10 px-4 py-2 text-xs text-cyan-200">
+              CLUES cercanas a <strong className="font-semibold text-white">{searchLocation.nombre}</strong>
+              <span className="ml-1 text-stone-400">· {searchLocation.radioKm} km</span>
+            </div>
+          )}
           {isLoading ? (
             <p className="px-4 py-3 text-sm text-stone-400">Buscando unidades...</p>
           ) : unidades.length === 0 ? (

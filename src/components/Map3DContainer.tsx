@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as maplibregl from 'maplibre-gl';
 import maplibreWorkerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url';
-import { UnidadMedica, UserCoordinates } from '../types.ts';
+import { MapSearchLocation, UnidadMedica, UserCoordinates } from '../types.ts';
 import type { OsmSceneController, OsmSceneStatus } from './osmScene.ts';
 
 maplibregl.setWorkerUrl(maplibreWorkerUrl);
@@ -10,11 +10,42 @@ import { Navigation, Compass, Maximize2, Sparkles, Building2 } from 'lucide-reac
 const NEON_MAP_STYLE = 'https://tiles.openfreemap.org/styles/dark';
 const NORMAL_MAP_STYLE = 'https://tiles.openfreemap.org/styles/liberty';
 
+function createClueMarkerImage(color: string): ImageData {
+  const canvas = document.createElement('canvas');
+  canvas.width = 48;
+  canvas.height = 48;
+  const context = canvas.getContext('2d');
+  if (!context) return new ImageData(48, 48);
+
+  context.beginPath();
+  context.roundRect(9, 7, 30, 34, 8);
+  context.fillStyle = '#07101f';
+  context.strokeStyle = color;
+  context.lineWidth = 3;
+  context.shadowColor = color;
+  context.shadowBlur = 9;
+  context.fill();
+  context.stroke();
+  context.shadowBlur = 0;
+
+  context.beginPath();
+  context.moveTo(24, 15);
+  context.lineTo(24, 33);
+  context.moveTo(15, 24);
+  context.lineTo(33, 24);
+  context.strokeStyle = '#ffffff';
+  context.lineWidth = 3;
+  context.lineCap = 'round';
+  context.stroke();
+  return context.getImageData(0, 0, canvas.width, canvas.height);
+}
+
 interface Map3DContainerProps {
   unidades: UnidadMedica[];
   selectedUnit: UnidadMedica | null;
   onSelectUnit: (unidad: UnidadMedica) => void;
   onSelectMapUnit: (unidad: UnidadMedica) => void;
+  searchLocation: MapSearchLocation | null;
   userLocation: UserCoordinates | null;
   onLocateUser: () => void;
   isLocating: boolean;
@@ -25,6 +56,7 @@ export const Map3DContainer: React.FC<Map3DContainerProps> = ({
   selectedUnit,
   onSelectUnit,
   onSelectMapUnit,
+  searchLocation,
   userLocation,
   onLocateUser,
   isLocating
@@ -34,7 +66,7 @@ export const Map3DContainer: React.FC<Map3DContainerProps> = ({
   const userMarkerRef = useRef<maplibregl.Marker | null>(null);
   const selectedUnitMarkerRef = useRef<maplibregl.Marker | null>(null);
   const osmSceneControllerRef = useRef<OsmSceneController | null>(null);
-  const neonModeRef = useRef(true);
+  const neonModeRef = useRef(false);
   const mapStyleSwitcherRef = useRef<((useNeonStyle: boolean) => void) | null>(null);
   const [mapStyleRevision, setMapStyleRevision] = useState(0);
   const [clueCounts, setClueCounts] = useState({ total: 0, primerNivel: 0, segundoNivel: 0, tercerNivel: 0, otros: 0 });
@@ -47,19 +79,32 @@ export const Map3DContainer: React.FC<Map3DContainerProps> = ({
 
   // Estados de visualización y cámara 3D
   const [is3DMode, setIs3DMode] = useState(true);
-  const [isNeonMode, setIsNeonMode] = useState(true);
+  const [isNeonMode, setIsNeonMode] = useState(false);
   const [currentPitch, setCurrentPitch] = useState(68);
   const [currentBearing, setCurrentBearing] = useState(-20);
   const [currentZoom, setCurrentZoom] = useState(5.4);
 
   useEffect(() => {
     let active = true;
-    fetch('/api/clues/resumen')
-      .then((response) => response.json())
-      .then((data) => {
-        if (active) setClueCounts(data);
-      })
-      .catch((error) => console.error('Error cargando conteos CLUES:', error));
+    const loadCounts = async () => {
+      try {
+        const response = await fetch(`${import.meta.env.BASE_URL}api/clues/resumen`);
+        if (!response.ok || !response.headers.get('content-type')?.includes('application/json')) {
+          throw new Error('El endpoint API no está disponible.');
+        }
+        if (active) setClueCounts(await response.json());
+      } catch {
+        try {
+          const response = await fetch(`${import.meta.env.BASE_URL}data/clues-summary.json`);
+          if (!response.ok) throw new Error(`No se pudo cargar el resumen estático: ${response.status}`);
+          if (active) setClueCounts(await response.json());
+        } catch (error) {
+          console.error('Error cargando conteos CLUES:', error);
+        }
+      }
+    };
+
+    void loadCounts();
     return () => {
       active = false;
     };
@@ -71,7 +116,7 @@ export const Map3DContainer: React.FC<Map3DContainerProps> = ({
 
     const map = new maplibregl.Map({
       container: mapContainerRef.current,
-      style: NEON_MAP_STYLE,
+      style: NORMAL_MAP_STYLE,
       center: [-102.5528, 23.6345],
       zoom: 5.4,
       pitch: 68,
@@ -87,14 +132,14 @@ export const Map3DContainer: React.FC<Map3DContainerProps> = ({
 
     let osmSceneController: OsmSceneController | null = null;
     let mapDisposed = false;
-    let appliedNeonStyle = true;
+    let appliedNeonStyle = false;
     let sceneGeneration = 0;
     const addCluePointLayers = () => {
       const groups = [
-        { id: 'primer-nivel', file: 'primer_nivel', color: '#37e08e' },
-        { id: 'segundo-nivel', file: 'segundo_nivel', color: '#ff4655' },
-        { id: 'tercer-nivel', file: 'tercer_nivel', color: '#3b82f6' },
-        { id: 'otros', file: 'no_aplica', color: '#9ca3af' }
+        { id: 'primer-nivel', file: 'primer_nivel', color: '#37e08e', offset: [-10, 0] as [number, number] },
+        { id: 'segundo-nivel', file: 'segundo_nivel', color: '#ff4655', offset: [0, -10] as [number, number] },
+        { id: 'tercer-nivel', file: 'tercer_nivel', color: '#3b82f6', offset: [10, 0] as [number, number] },
+        { id: 'otros', file: 'no_aplica', color: '#9ca3af', offset: [0, 10] as [number, number] }
       ];
       const levelNames: Record<string, UnidadMedica['nivel_atencion']> = {
         'PRIMER NIVEL': 'Primer Nivel',
@@ -103,29 +148,80 @@ export const Map3DContainer: React.FC<Map3DContainerProps> = ({
         'NO APLICA': 'NO APLICA'
       };
 
-      groups.forEach(({ id, file, color }) => {
+      groups.forEach(({ id, file, color, offset }) => {
         const sourceId = `clues-${id}-source`;
-        const layerId = `clues-${id}-points`;
+        const clusterLayerId = `clues-${id}-clusters`;
+        const clusterCountLayerId = `clues-${id}-cluster-count`;
+        const markerImageId = `clues-${id}-cross-box`;
+        const pointLayerId = `clues-${id}-points`;
         if (map.getSource(sourceId)) return;
 
         map.addSource(sourceId, {
           type: 'geojson',
-          data: `/data/clues_json_por_nivel/clues_${file}.json`
+          data: `${import.meta.env.BASE_URL}data/clues_json_por_nivel/clues_${file}.json`,
+          cluster: true,
+          clusterMaxZoom: 10,
+          clusterRadius: 42
         });
+
+        map.addImage(markerImageId, createClueMarkerImage(color), { pixelRatio: 2 });
         map.addLayer({
-          id: layerId,
-          type: 'circle',
+          id: clusterLayerId,
+          type: 'symbol',
           source: sourceId,
-          paint: {
-            'circle-color': color,
-            'circle-radius': ['interpolate', ['linear'], ['zoom'], 4, 1.2, 8, 2, 12, 3.2, 16, 5.5],
-            'circle-opacity': 0.88,
-            'circle-stroke-color': '#07101f',
-            'circle-stroke-width': ['interpolate', ['linear'], ['zoom'], 4, 0.15, 12, 0.65]
+          filter: ['has', 'point_count'],
+          layout: {
+            'icon-image': markerImageId,
+            'icon-size': ['step', ['get', 'point_count'], 0.62, 100, 0.76, 750, 0.9],
+            'icon-anchor': 'center',
+            'icon-offset': offset,
+            'icon-allow-overlap': true,
+            'icon-ignore-placement': true
           }
         });
 
-        map.on('click', layerId, (event) => {
+        map.addLayer({
+          id: clusterCountLayerId,
+          type: 'symbol',
+          source: sourceId,
+          filter: ['has', 'point_count'],
+          layout: {
+            'text-field': ['get', 'point_count_abbreviated'],
+            'text-font': ['Noto Sans Bold'],
+            'text-size': ['step', ['get', 'point_count'], 9, 100, 10, 750, 11],
+            'text-offset': [0, 0.1],
+            'text-ignore-placement': true
+          },
+          paint: { 'text-color': '#ffffff', 'text-halo-color': '#07101f', 'text-halo-width': 1 }
+        });
+
+        map.addLayer({
+          id: pointLayerId,
+          type: 'symbol',
+          source: sourceId,
+          filter: ['!', ['has', 'point_count']],
+          layout: {
+            'icon-image': markerImageId,
+            'icon-size': ['interpolate', ['linear'], ['zoom'], 10, 0.3, 14, 0.55, 17, 0.78],
+            'icon-anchor': 'center',
+            'icon-offset': offset,
+            'icon-allow-overlap': true,
+            'icon-ignore-placement': true
+          }
+        });
+
+        map.on('click', clusterLayerId, (event) => {
+          const feature = event.features?.[0];
+          if (!feature || feature.geometry.type !== 'Point') return;
+          const clusterId = Number(feature.properties?.cluster_id);
+          const coordinates = feature.geometry.coordinates as [number, number];
+          const source = map.getSource(sourceId) as maplibregl.GeoJSONSource;
+          source.getClusterExpansionZoom(clusterId).then((zoom) => {
+            map.easeTo({ center: coordinates, zoom });
+          });
+        });
+
+        map.on('click', pointLayerId, (event) => {
           const feature = event.features?.[0];
           if (!feature || feature.geometry.type !== 'Point') return;
           const properties = feature.properties ?? {};
@@ -147,10 +243,16 @@ export const Map3DContainer: React.FC<Map3DContainerProps> = ({
             estatus_operacion: String(properties.estatus_de_operacion ?? '')
           });
         });
-        map.on('mouseenter', layerId, () => {
+        map.on('mouseenter', clusterLayerId, () => {
           map.getCanvas().style.cursor = 'pointer';
         });
-        map.on('mouseleave', layerId, () => {
+        map.on('mouseleave', clusterLayerId, () => {
+          map.getCanvas().style.cursor = '';
+        });
+        map.on('mouseenter', pointLayerId, () => {
+          map.getCanvas().style.cursor = 'pointer';
+        });
+        map.on('mouseleave', pointLayerId, () => {
           map.getCanvas().style.cursor = '';
         });
       });
@@ -173,14 +275,14 @@ export const Map3DContainer: React.FC<Map3DContainerProps> = ({
         });
       }
 
+      addCluePointLayers();
       const generation = ++sceneGeneration;
       void import('./osmScene.ts')
         .then(({ attachOsmScene }) => {
           if (!mapDisposed && generation === sceneGeneration) {
-            osmSceneController = attachOsmScene(map, setOsmSceneStatus);
+            osmSceneController = attachOsmScene(map, setOsmSceneStatus, neonModeRef.current);
             osmSceneControllerRef.current = osmSceneController;
             osmSceneController.setNeonVisible(neonModeRef.current);
-            addCluePointLayers();
           }
         })
         .catch((error: unknown) => {
@@ -201,11 +303,15 @@ export const Map3DContainer: React.FC<Map3DContainerProps> = ({
       neonModeRef.current = useNeonStyle;
       if (mapDisposed || !map.isStyleLoaded() || appliedNeonStyle === useNeonStyle) return;
 
+      const currentCenter = map.getCenter();
+      const needsUrbanZoom = useNeonStyle && map.getZoom() < 15;
       const view = {
-        center: map.getCenter(),
-        zoom: map.getZoom(),
-        pitch: map.getPitch(),
-        bearing: map.getBearing()
+        center: needsUrbanZoom && map.getZoom() < 8
+          ? maplibregl.LngLat.convert([-99.1517, 19.4128])
+          : currentCenter,
+        zoom: needsUrbanZoom ? 15.2 : map.getZoom(),
+        pitch: useNeonStyle ? (is3DMode ? 68 : map.getPitch()) : map.getPitch(),
+        bearing: useNeonStyle ? (is3DMode ? -20 : map.getBearing()) : map.getBearing()
       };
       osmSceneController?.dispose();
       osmSceneController = null;
@@ -224,14 +330,7 @@ export const Map3DContainer: React.FC<Map3DContainerProps> = ({
     };
     mapStyleSwitcherRef.current = applyMapStyle;
 
-    map.once('load', () => {
-      if (neonModeRef.current) {
-        initializeLayers();
-      } else {
-        appliedNeonStyle = true;
-        applyMapStyle(false);
-      }
-    });
+    map.once('load', initializeLayers);
 
     mapRef.current = map;
 
@@ -300,6 +399,20 @@ export const Map3DContainer: React.FC<Map3DContainerProps> = ({
     marker.togglePopup();
   }, [selectedUnit, onSelectUnit, mapStyleRevision]);
 
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !searchLocation) return;
+
+    map.flyTo({
+      center: [searchLocation.longitud, searchLocation.latitud],
+      zoom: 15.2,
+      pitch: is3DMode ? 68 : 0,
+      bearing: is3DMode ? -20 : 0,
+      duration: 1300,
+      essential: true
+    });
+  }, [searchLocation, is3DMode, mapStyleRevision]);
+
   // 7. Marcador 3D del Usuario (Baliza satelital GPS con onda radar)
   useEffect(() => {
     const map = mapRef.current;
@@ -339,7 +452,7 @@ export const Map3DContainer: React.FC<Map3DContainerProps> = ({
       duration: 1600,
       essential: true
     });
-  }, [selectedUnit, is3DMode]);
+  }, [selectedUnit, is3DMode, mapStyleRevision]);
 
   // Conmutador de modo 3D / 2D
   const toggle3DMode = () => {

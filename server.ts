@@ -24,7 +24,23 @@ type CluesGeoJsonFeature = {
   properties: Record<string, unknown>;
 };
 
+type GeocodedPlace = {
+  nombre: string;
+  latitud: number;
+  longitud: number;
+};
+
+type PhotonResponse = {
+  features?: Array<{
+    geometry?: { coordinates?: unknown };
+    properties?: Record<string, unknown>;
+  }>;
+};
+
 let cluesCatalogPromise: Promise<UnidadMedica[]> | null = null;
+const geocodeCache = new Map<string, GeocodedPlace | null>();
+let geocodeQueue: Promise<void> = Promise.resolve();
+let lastGeocodeRequestAt = 0;
 
 const normalizeSearchText = (value: string) =>
   value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
@@ -67,6 +83,64 @@ function loadCluesCatalog(): Promise<UnidadMedica[]> {
   }
 
   return cluesCatalogPromise;
+}
+
+function geocodePlace(query: string): Promise<GeocodedPlace | null> {
+  const key = normalizeSearchText(query);
+  if (geocodeCache.has(key)) return Promise.resolve(geocodeCache.get(key) ?? null);
+
+  const request = geocodeQueue.then(async () => {
+    if (geocodeCache.has(key)) return geocodeCache.get(key) ?? null;
+    const waitMs = Math.max(0, 1000 - (Date.now() - lastGeocodeRequestAt));
+    if (waitMs > 0) await new Promise((resolve) => setTimeout(resolve, waitMs));
+    lastGeocodeRequestAt = Date.now();
+
+    const url = new URL('https://photon.komoot.io/api/');
+    url.searchParams.set('q', query);
+    url.searchParams.set('limit', '5');
+    url.searchParams.set('lang', 'default');
+    const response = await fetch(url, {
+      headers: { 'User-Agent': 'GeoSaludCLUES/1.0', 'Accept-Language': 'es' }
+    });
+    if (!response.ok) throw new Error(`Photon respondió ${response.status}`);
+
+    const data = await response.json() as PhotonResponse;
+    const feature = data.features?.find((candidate) =>
+      String(candidate.properties?.countrycode ?? '').toLowerCase() === 'mx'
+    ) ?? data.features?.[0];
+    if (!feature) {
+      geocodeCache.set(key, null);
+      return null;
+    }
+    const coordinates = feature?.geometry?.coordinates;
+    if (!Array.isArray(coordinates) || typeof coordinates[0] !== 'number' || typeof coordinates[1] !== 'number') {
+      geocodeCache.set(key, null);
+      return null;
+    }
+
+    const properties = feature.properties ?? {};
+    const street = [properties.housenumber, properties.street].filter(Boolean).join(' ');
+    const name = [
+      properties.name,
+      street,
+      properties.city ?? properties.district ?? properties.county,
+      properties.state
+    ].filter(Boolean).map(String).join(', ');
+    const result = {
+      nombre: name || query,
+      longitud: coordinates[0],
+      latitud: coordinates[1]
+    };
+    geocodeCache.set(key, result);
+    if (geocodeCache.size > 1500) {
+      const oldestKey = geocodeCache.keys().next().value;
+      if (oldestKey) geocodeCache.delete(oldestKey);
+    }
+    return result;
+  });
+
+  geocodeQueue = request.then(() => undefined, () => undefined);
+  return request;
 }
 
 async function startServer() {
@@ -222,6 +296,98 @@ async function startServer() {
       console.error('Error buscando en el catálogo CLUES:', error);
       cluesCatalogPromise = null;
       res.status(500).json({ error: 'No se pudo consultar el catálogo CLUES exportado.' });
+    }
+  });
+
+  app.get('/api/clues/busqueda', async (req: Request, res: Response) => {
+    const rawQuery = typeof req.query.buscar === 'string' ? req.query.buscar.trim() : '';
+    const query = normalizeSearchText(rawQuery);
+    if (query.length < 2) {
+      res.status(400).json({ error: 'Escribe al menos dos caracteres para buscar.' });
+      return;
+    }
+
+    const requestedLimit = Number.parseInt(req.query.limit as string, 10);
+    const limit = Number.isFinite(requestedLimit) && requestedLimit > 0
+      ? Math.min(requestedLimit, 50)
+      : 10;
+    const requestedRadius = Number.parseFloat(req.query.radioKm as string);
+    const radiusKm = Number.isFinite(requestedRadius) && requestedRadius > 0
+      ? Math.min(requestedRadius, 100)
+      : 30;
+
+    try {
+      const catalogo = await loadCluesCatalog();
+      const searchableText = (unidad: UnidadMedica) => normalizeSearchText([
+        unidad.clues,
+        unidad.nombre_unidad,
+        unidad.nombre_comercial ?? '',
+        unidad.tipo_unidad,
+        unidad.direccion,
+        unidad.codigo_postal,
+        unidad.localidad,
+        unidad.municipio,
+        unidad.entidad
+      ].join(' '));
+
+      const exactMatches = catalogo.filter((unidad) => [
+        unidad.clues,
+        unidad.nombre_unidad,
+        unidad.nombre_comercial ?? ''
+      ].some((value) => normalizeSearchText(value) === query));
+      const looksLikeClues = /^(?=.*\d)[a-z0-9-]{7,}$/i.test(rawQuery.replace(/\s/g, ''));
+      if (exactMatches.length > 0 || looksLikeClues) {
+        const matches = exactMatches.length > 0
+          ? exactMatches
+          : catalogo.filter((unidad) => normalizeSearchText(unidad.clues).includes(query));
+        res.json({ tipo: 'unidades', origen: null, total: matches.length, unidades: matches.slice(0, limit) });
+        return;
+      }
+
+      const origin = await geocodePlace(rawQuery);
+      if (origin) {
+        const near = catalogo
+          .filter((unidad): unidad is UnidadMedica & { latitud: number; longitud: number } =>
+            unidad.latitud !== null && unidad.longitud !== null)
+          .map((unidad) => {
+            const distanciaKm = calcularDistanciaHaversineKm(
+              origin.latitud,
+              origin.longitud,
+              unidad.latitud,
+              unidad.longitud
+            );
+            return {
+              ...unidad,
+              distanciaKm: Number(distanciaKm.toFixed(2)),
+              distanciaFormateada: formatearDistancia(distanciaKm)
+            };
+          })
+          .filter((unidad) => unidad.distanciaKm <= radiusKm)
+          .sort((first, second) => first.distanciaKm - second.distanciaKm);
+
+        res.json({
+          tipo: 'lugar',
+          origen: { ...origin, radioKm: radiusKm },
+          total: near.length,
+          unidades: near.slice(0, limit)
+        });
+        return;
+      }
+
+      const queryTokens = query.split(/\s+/).filter(Boolean);
+      const knownTokens = queryTokens.filter((token) =>
+        catalogo.some((unidad) => searchableText(unidad).includes(token))
+      );
+      const tokensToMatch = knownTokens.length > 0 ? knownTokens : queryTokens;
+      const matches = catalogo.filter((unidad) => {
+        const text = searchableText(unidad);
+        return tokensToMatch.every((token) => text.includes(token));
+      });
+      res.json({ tipo: 'unidades', origen: null, total: matches.length, unidades: matches.slice(0, limit) });
+    } catch (error) {
+      console.error('Error buscando ubicación y CLUES cercanas:', error);
+      cluesCatalogPromise = null;
+      res.status(502).json({ error: 'No se pudo completar la búsqueda geográfica.' });
     }
   });
 

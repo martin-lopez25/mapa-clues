@@ -107,22 +107,24 @@ export const MiniGlobe: React.FC<MiniGlobeProps> = ({ startIntro = false, onIntr
       aria-label="Globo terráqueo a pantalla completa"
       aria-modal="true"
       onClick={registerTap}
-      className="fixed inset-0 z-[80] grid place-items-center bg-[#020711]/96 backdrop-blur-sm"
+      className="fixed inset-0 z-[80] grid place-items-center bg-[#020711]"
     >
-      <div className="h-[min(82vw,82vh,760px)] w-[min(82vw,82vh,760px)] overflow-hidden rounded-full ring-1 ring-cyan-300/45 shadow-[0_0_70px_rgba(56,217,255,0.2)]">
+      <div className="h-[min(88vw,88vh,820px)] w-[min(88vw,88vh,820px)] overflow-hidden">
         <GlobeCanvas />
       </div>
-      <button
-        type="button"
-        onClick={(event) => {
-          event.stopPropagation();
-          closeGlobe();
-        }}
-        aria-label="Cerrar globo"
-        className="absolute right-5 top-5 flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-black/60 text-white hover:bg-black/80"
-      >
-        <X className="h-5 w-5" />
-      </button>
+      {!startIntro && (
+        <button
+          type="button"
+          onClick={(event) => {
+            event.stopPropagation();
+            closeGlobe();
+          }}
+          aria-label="Cerrar globo"
+          className="absolute right-5 top-5 flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-black/60 text-white hover:bg-black/80"
+        >
+          <X className="h-5 w-5" />
+        </button>
+      )}
     </div>
   ) : (
     <div

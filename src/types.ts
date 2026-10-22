@@ -35,6 +35,13 @@ export interface UserCoordinates {
   timestamp: number;
 }
 
+export interface MapSearchLocation {
+  nombre: string;
+  latitud: number;
+  longitud: number;
+  radioKm: number;
+}
+
 export interface FiltrosCatalogo {
   entidades: string[];
   instituciones: string[];

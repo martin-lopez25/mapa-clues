@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",
-    "build": "vite build",
+    "build": "node scripts/build-pages-data.mjs && vite build",
     "start": "tsx server.ts",
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@fontsource/cormorant-garamond": "^5.3.0",
+    "@fontsource/libre-baskerville": "^5.3.0",
     "@google/genai": "^2.4.0",
     "@tailwindcss/vite": "^4.3.3",
     "@turf/bbox-clip": "^7.4.0",
