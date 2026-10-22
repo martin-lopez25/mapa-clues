@@ -1,0 +1,6406 @@
+{
+  "type": "FeatureCollection",
+  "name": "no_aplica",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.620663,
+          31.876347
+        ]
+      },
+      "properties": {
+        "clues_imb": "BCIMB000792",
+        "nombre_de_la_unidad": "UNIDAD MOVIL NO. 3",
+        "nombre_comercial": "UNIDAD MOVIL NO. 3",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "ENSENADA",
+        "municipio": "ENSENADA",
+        "entidad": "BAJA CALIFORNIA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.440302,
+          32.623859
+        ]
+      },
+      "properties": {
+        "clues_imb": "BCIMB001311",
+        "nombre_de_la_unidad": "UNIDAD MOVIL NO. 8",
+        "nombre_comercial": "UNIDAD MOVIL NO. 8",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "MEXICALI",
+        "municipio": "MEXICALI",
+        "entidad": "BAJA CALIFORNIA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0341,
+          32.4749
+        ]
+      },
+      "properties": {
+        "clues_imb": "BCIMB001335",
+        "nombre_de_la_unidad": "ALMACEN TIJUANA",
+        "nombre_comercial": "ALMACEN TIJUANA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "ALMACENES",
+        "localidad": "TIJUANA",
+        "municipio": "TIJUANA",
+        "entidad": "BAJA CALIFORNIA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.5949,
+          31.8278
+        ]
+      },
+      "properties": {
+        "clues_imb": "BCIMB001340",
+        "nombre_de_la_unidad": "ALMACEN ENSENADA",
+        "nombre_comercial": "ALMACEN ENSENADA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "ALMACENES",
+        "localidad": "ENSENADA",
+        "municipio": "ENSENADA",
+        "entidad": "BAJA CALIFORNIA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.3500466,
+          32.5721338
+        ]
+      },
+      "properties": {
+        "clues_imb": "BCIMB001405",
+        "nombre_de_la_unidad": "ALMACÉN DE MEXICALI",
+        "nombre_comercial": "ALMACÉN DE MEXICALI",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "ALMACENES",
+        "localidad": "MEXICALI",
+        "municipio": "MEXICALI",
+        "entidad": "BAJA CALIFORNIA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.3079196,
+          24.2281573
+        ]
+      },
+      "properties": {
+        "clues_imb": "BSIMB000824",
+        "nombre_de_la_unidad": "COORDINACIÓN ESTATAL IMSS BIENESTAR BAJA CALIFORNIA SUR",
+        "nombre_comercial": "COORDINACIÓN ESTATAL IMSS BIENESTAR BAJA CALIFORNIA SUR",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "OFICINAS ADMINISTRATIVAS",
+        "localidad": "LA PAZ",
+        "municipio": "LA PAZ",
+        "entidad": "BAJA CALIFORNIA SUR",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "añadido"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.2878184,
+          24.1401036
+        ]
+      },
+      "properties": {
+        "clues_imb": "BSIMB000836",
+        "nombre_de_la_unidad": "ALMACÉN CENTRAL IMSS BIENESTAR BAJA CALIFORNIA SUR",
+        "nombre_comercial": "ALMACÉN CENTRAL IMSS BIENESTAR BAJA CALIFORNIA SUR",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "ALMACENES",
+        "localidad": "LA PAZ",
+        "municipio": "LA PAZ",
+        "entidad": "BAJA CALIFORNIA SUR",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.41987,
+          19.770719
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001012",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-1",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-1",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SAN ANTONIO BOBOLA",
+        "municipio": "CAMPECHE",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.03834,
+          20.195612
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001024",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-2",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-2",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "BLANCA FLOR",
+        "municipio": "HECELCHAKAN",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.554166,
+          19.321944
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001036",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-3",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-3",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SAN ANTONIO DEL RIO",
+        "municipio": "CHAMPOTON",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.742648,
+          18.804708
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001041",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-4",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-4",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "PROFESOR GRACIANO SANCHEZ",
+        "municipio": "CHAMPOTON",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.5919092,
+          18.4927053
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001053",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-5",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-5",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "MIGUEL DE LA MADRID",
+        "municipio": "ESCARCEGA",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.7847183,
+          18.6210658
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001065",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-6",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-6",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "JOSE DE LA CRUZ BLANCO",
+        "municipio": "ESCARCEGA",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.188315,
+          18.395335
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001070",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-7",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-7",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "KILOMETRO 59",
+        "municipio": "CARMEN",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.408638,
+          18.151745
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001082",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-8",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-8",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "EL CHINAL",
+        "municipio": "CARMEN",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.536059,
+          18.204699
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001094",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-9",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-9",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "CENTAURO DEL NORTE",
+        "municipio": "CARMEN",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.0626481,
+          18.2229997
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001106",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-10",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-10",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "GENERAL FRANCISCO J. MUJICA",
+        "municipio": "CANDELARIA",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.9253142,
+          18.0770819
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001111",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-13",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-13",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "PABLO GARCIA",
+        "municipio": "CANDELARIA",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.9367983,
+          17.9885572
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001123",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-14",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-14",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "EL MAMEY",
+        "municipio": "CANDELARIA",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.652222,
+          18.373056
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001135",
+        "nombre_de_la_unidad": "UNIDAD MÉDICO MÓVIL P-15",
+        "nombre_comercial": "UNIDAD MÉDICO MÓVIL P-15",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SAN JOSE DE LAS MONTAÑAS",
+        "municipio": "CANDELARIA",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.8225514,
+          18.2169011
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001140",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-11",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-11",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "EL POCITO",
+        "municipio": "CANDELARIA",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.0781817,
+          18.1187458
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001152",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-12",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-12",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "CORTE PAJARAL",
+        "municipio": "CANDELARIA",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8278454,
+          20.187353
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001176",
+        "nombre_de_la_unidad": "UNIDAD MEDICA MOVIL P-26",
+        "nombre_comercial": "UNIDAD MEDICA MOVIL P-26",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "XCULOC",
+        "municipio": "HOPELCHEN",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8710932,
+          19.6513801
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001181",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL  P-27",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-27",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "BECANCHEN",
+        "municipio": "HOPELCHEN",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2916506,
+          18.8107139
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001193",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-28",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-28",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "UNION 20 DE JUNIO (MANCOLONA)",
+        "municipio": "CALAKMUL",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3121281,
+          18.2408439
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001205",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-29",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-29",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LA VIRGENCITA DE LA CANDELARIA",
+        "municipio": "CALAKMUL",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3005517,
+          18.0700322
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001210",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-30",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-30",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "CINCO DE MAYO (PLAN DE AYALA)",
+        "municipio": "CALAKMUL",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4434336,
+          18.5129658
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001222",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-31",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-31",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "VALENTIN GOMEZ FARIAS",
+        "municipio": "CALAKMUL",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2566771,
+          17.9223921
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001234",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL  P-32",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-32",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "MANUEL CRESCENCIO REJON",
+        "municipio": "CALAKMUL",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.017242,
+          18.151809
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001246",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-33",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-33",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "VISTA ALEGRE",
+        "municipio": "CARMEN",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0087272,
+          18.2653056
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001251",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-34",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-34",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LAS BODEGAS",
+        "municipio": "PALIZADA",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0642758,
+          18.2424925
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001263",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-35",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-35",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "EL MANGAL",
+        "municipio": "PALIZADA",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.5453425,
+          17.9142572
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001275",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-16",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-16",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SAN MIGUEL",
+        "municipio": "CANDELARIA",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.477701,
+          18.138185
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001292",
+        "nombre_de_la_unidad": "UNIDAD MEDICA MOVIL P-40 NUEVO  COMALCALCO",
+        "nombre_comercial": "UNIDAD MEDICA MOVIL P-40 NUEVO COMALCALCO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "NUEVO COMALCALCO",
+        "municipio": "CANDELARIA",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8613544,
+          19.6675003
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001304",
+        "nombre_de_la_unidad": "UNIDAD MEDICA MOVIL P-45 XCUPIL",
+        "nombre_comercial": "UNIDAD MEDICA MOVIL P-45 XCUPIL",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "XCUPIL",
+        "municipio": "HOPELCHEN",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.575466,
+          18.031525
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001316",
+        "nombre_de_la_unidad": "UNIDAD MEDICA MOVIL P-46 LAGUNA LA PERDIDA",
+        "nombre_comercial": "UNIDAD MEDICA MOVIL P-46 LAGUNA LA PERDIDA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LAGUNA LA PERDIDA",
+        "municipio": "CANDELARIA",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.409053,
+          17.846312
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001321",
+        "nombre_de_la_unidad": "UNIDAD MEDICA MOVIL P-47 SOLIDARIDAD",
+        "nombre_comercial": "UNIDAD MEDICA MOVIL P-47 SOLIDARIDAD",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SOLIDARIDAD",
+        "municipio": "CANDELARIA",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.188613,
+          18.158842
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001333",
+        "nombre_de_la_unidad": "UNIDAD MEDICA MOVIL P-48 EL TESORO",
+        "nombre_comercial": "UNIDAD MEDICA MOVIL P-48 EL TESORO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "EL TESORO",
+        "municipio": "CALAKMUL",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.465238,
+          18.645004
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001345",
+        "nombre_de_la_unidad": "UNIDAD MEDICA MOVIL P-49 NUEVO CAMPECHITO",
+        "nombre_comercial": "UNIDAD MEDICA MOVIL P-49 NUEVO CAMPECHITO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "NUEVO CAMPECHITO",
+        "municipio": "CARMEN",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.806277,
+          19.422865
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001374",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL P-38",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL P-38",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "CHENCOH",
+        "municipio": "HOPELCHEN",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.291178,
+          18.819983
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001386",
+        "nombre_de_la_unidad": "UNIDAD MEDICO MOVIL P-39",
+        "nombre_comercial": "UNIDAD MEDICO MOVIL P-39",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LAGUNA GRANDE",
+        "municipio": "ESCARCEGA",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3038516,
+          19.0531496
+        ]
+      },
+      "properties": {
+        "clues_imb": "CMIMB001235",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL MANZANILLO 2",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL MANZANILLO 2",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "MANZANILLO",
+        "municipio": "MANZANILLO",
+        "entidad": "COLIMA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.716751,
+          19.248294
+        ]
+      },
+      "properties": {
+        "clues_imb": "CMIMB001240",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL COQUIMATLÁN",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL COQUIMATLÁN",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "COLIMA",
+        "municipio": "COLIMA",
+        "entidad": "COLIMA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.8930816,
+          18.9243684
+        ]
+      },
+      "properties": {
+        "clues_imb": "CMIMB001252",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL TECOMÁN 2",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL TECOMÁN 2",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "TECOMAN",
+        "municipio": "TECOMAN",
+        "entidad": "COLIMA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.8930816,
+          18.9243684
+        ]
+      },
+      "properties": {
+        "clues_imb": "CMIMB001264",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL IXTLAHUACÁN 2",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL IXTLAHUACÁN 2",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "TECOMAN",
+        "municipio": "TECOMAN",
+        "entidad": "COLIMA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.0451,
+          19.3851
+        ]
+      },
+      "properties": {
+        "clues_imb": "CMIMB001276",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL MINATITLÁN",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL MINATITLÁN",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "MINATITLAN",
+        "municipio": "MINATITLAN",
+        "entidad": "COLIMA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.7195081,
+          19.2358177
+        ]
+      },
+      "properties": {
+        "clues_imb": "CMIMB001474",
+        "nombre_de_la_unidad": "COORDINACIÓN ESTATAL IMSS-BIENESTAR COLIMA",
+        "nombre_comercial": "COORDINACIÓN ESTATAL IMSS-BIENESTAR COLIMA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "OFICINAS ADMINISTRATIVAS",
+        "localidad": "COLIMA",
+        "municipio": "COLIMA",
+        "entidad": "COLIMA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "añadido"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.8092802,
+          19.202248
+        ]
+      },
+      "properties": {
+        "clues_imb": "CMIMB001486",
+        "nombre_de_la_unidad": "UNIDAD ADMINISTRATIVA COQUIMATLÁN",
+        "nombre_comercial": "UNIDAD ADMINISTRATIVA COQUIMATLÁN",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "OFICINAS ADMINISTRATIVAS",
+        "localidad": "COQUIMATLAN",
+        "municipio": "COQUIMATLAN",
+        "entidad": "COLIMA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "añadido"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.68754,
+          19.2322428
+        ]
+      },
+      "properties": {
+        "clues_imb": "CMIMB001491",
+        "nombre_de_la_unidad": "ALMACÉN CENTRAL IMSS-BIENESTAR COLIMA",
+        "nombre_comercial": "ALMACÉN CENTRAL IMSS-BIENESTAR COLIMA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "ALMACENES",
+        "localidad": "COLIMA",
+        "municipio": "COLIMA",
+        "entidad": "COLIMA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.770511,
+          17.353651
+        ]
+      },
+      "properties": {
+        "clues_imb": "CSIMB004375",
+        "nombre_de_la_unidad": "UNIDAD MEDICA MÓVIL ESQUIPULAS",
+        "nombre_comercial": "UNIDAD MEDICA MÓVIL ESQUIPULAS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "ESQUIPULAS",
+        "municipio": "AMATAN",
+        "entidad": "CHIAPAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.692542,
+          16.277816
+        ]
+      },
+      "properties": {
+        "clues_imb": "CSIMB004585",
+        "nombre_de_la_unidad": "UNIDAD MEDICA MOVIL 311 SAN ANTONIO LOS ALTOS",
+        "nombre_comercial": "UNIDAD MEDICA MOVIL 311 SAN ANTONIO LOS ALTOS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SAN ANTONIO LOS ALTOS",
+        "municipio": "LAS MARGARITAS",
+        "entidad": "CHIAPAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.9496,
+          17.0219
+        ]
+      },
+      "properties": {
+        "clues_imb": "CSIMB005010",
+        "nombre_de_la_unidad": "UNIDAD MEDICA MOVIL SANTA CRUZ NIHO",
+        "nombre_comercial": "UNIDAD MEDICA MOVIL SANTA CRUZ NIHO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SANTA CRUZ NIHO",
+        "municipio": "BOCHIL",
+        "entidad": "CHIAPAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.1318065,
+          16.7540464
+        ]
+      },
+      "properties": {
+        "clues_imb": "CSIMB006731",
+        "nombre_de_la_unidad": "COORDINACIÓN ESTATAL DE SERVICIOS DE SALUD IMSS BIENESTAR, CHIAPAS",
+        "nombre_comercial": "COORDINACIÓN ESTATAL DE SERVICIOS DE SALUD IMSS BIENESTAR, CHIAPAS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "OFICINAS ADMINISTRATIVAS",
+        "localidad": "TUXTLA GUTIERREZ",
+        "municipio": "TUXTLA GUTIERREZ",
+        "entidad": "CHIAPAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.18787,
+          19.36127
+        ]
+      },
+      "properties": {
+        "clues_imb": "DFIMB000014",
+        "nombre_de_la_unidad": "SERVICIOS DE SALUD DEL INSTITUTO MEXICANO DEL SEGURO SOCIAL PARA EL BIENESTAR (IMSS-BIENESTAR)",
+        "nombre_comercial": "SERVICIOS DE SALUD DEL INSTITUTO MEXICANO DEL SEGURO SOCIAL PARA EL BIENESTAR (IMSS-BIENESTAR)",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "OFICINAS ADMINISTRATIVAS",
+        "localidad": "ALVARO OBREGON",
+        "municipio": "ALVARO OBREGON",
+        "entidad": "CIUDAD DE MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1593945,
+          19.4692688
+        ]
+      },
+      "properties": {
+        "clues_imb": "DFIMB002324",
+        "nombre_de_la_unidad": "ALMACÉN CENTRAL ",
+        "nombre_comercial": "ALMACÉN CENTRAL",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "ALMACENES",
+        "localidad": "AZCAPOTZALCO",
+        "municipio": "AZCAPOTZALCO",
+        "entidad": "CIUDAD DE MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.14079,
+          19.376511
+        ]
+      },
+      "properties": {
+        "clues_imb": "DFIMB002336",
+        "nombre_de_la_unidad": "ALMACÉN DE VESTUARIO Y EQUIPO DE PROTECCIÓN",
+        "nombre_comercial": "ALMACÉN DE VESTUARIO Y EQUIPO DE PROTECCIÓN",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "ALMACENES",
+        "localidad": "BENITO JUAREZ",
+        "municipio": "BENITO JUAREZ",
+        "entidad": "CIUDAD DE MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1408218,
+          19.3765225
+        ]
+      },
+      "properties": {
+        "clues_imb": "DFIMB002365",
+        "nombre_de_la_unidad": "ALMACÉN DE VACUNAS ESTATAL DE LOS SERVICIOS DE SALUD PÚBLICA DE LA CIUDAD DE MÉXICO",
+        "nombre_comercial": "ALMACÉN DE VACUNAS ESTATAL DE LOS SERVICIOS DE SALUD PÚBLICA DE LA CIUDAD DE MÉXICO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "ALMACENES",
+        "localidad": "BENITO JUAREZ",
+        "municipio": "BENITO JUAREZ",
+        "entidad": "CIUDAD DE MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2116,
+          19.4297
+        ]
+      },
+      "properties": {
+        "clues_imb": "DFIMB002546",
+        "nombre_de_la_unidad": "LABORATORIO DE CITOPATOLOGÍA",
+        "nombre_comercial": "LABORATORIO DE CITOPATOLOGÍA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "LABORATORIOS",
+        "localidad": "MIGUEL HIDALGO",
+        "municipio": "MIGUEL HIDALGO",
+        "entidad": "CIUDAD DE MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1534,
+          19.4329
+        ]
+      },
+      "properties": {
+        "clues_imb": "DFIMB002551",
+        "nombre_de_la_unidad": "ALMACÉN FRESNO",
+        "nombre_comercial": "ALMACÉN FRESNO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "ALMACENES",
+        "localidad": "CUAUHTEMOC",
+        "municipio": "CUAUHTEMOC",
+        "entidad": "CIUDAD DE MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1349079,
+          19.3760981
+        ]
+      },
+      "properties": {
+        "clues_imb": "DFIMB002563",
+        "nombre_de_la_unidad": "LAVANDERÍA DR. BALMIS",
+        "nombre_comercial": "LAVANDERÍA DR. BALMIS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "OTROS ESTABLECIMIENTOS DE APOYO",
+        "localidad": "IZTAPALAPA",
+        "municipio": "IZTAPALAPA",
+        "entidad": "CIUDAD DE MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1855506,
+          19.3527765
+        ]
+      },
+      "properties": {
+        "clues_imb": "DFIMB003210",
+        "nombre_de_la_unidad": "SERVICIOS DE SALUD DEL INSTITUTO MEXICANO DEL SEGURO SOCIAL PARA EL BIENESTAR (IMSS-BIENESTAR) TORRE INSURGENTES",
+        "nombre_comercial": "SERVICIOS DE SALUD DEL INSTITUTO MEXICANO DEL SEGURO SOCIAL PARA EL BIENESTAR (IMSS-BIENESTAR) TORRE INSURGENTES",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "OFICINAS ADMINISTRATIVAS",
+        "localidad": "ALVARO OBREGON",
+        "municipio": "ALVARO OBREGON",
+        "entidad": "CIUDAD DE MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7552967,
+          17.826261
+        ]
+      },
+      "properties": {
+        "clues_imb": "GRIMB009240",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL OCOTITLÁN",
+        "nombre_comercial": "CARAVANA TIPO 0 OCOTILÁN",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "OCOTITLAN",
+        "municipio": "OLINALA",
+        "entidad": "GUERRERO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.764361,
+          17.392528
+        ]
+      },
+      "properties": {
+        "clues_imb": "GRIMB009252",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL TIERRA COLORADA",
+        "nombre_comercial": "UMM TIERRA COLORADA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "TIERRA COLORADA",
+        "municipio": "ZAPOTITLAN TABLAS",
+        "entidad": "GUERRERO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.295115,
+          17.1874181
+        ]
+      },
+      "properties": {
+        "clues_imb": "GRIMB009264",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL COSTA RICA COLORADA",
+        "nombre_comercial": "CARAVANA TIPO 0 COSTA RICA COLORADA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "COSTA RICA COLORADA",
+        "municipio": "METLATONOC",
+        "entidad": "GUERRERO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.873702,
+          17.8595147
+        ]
+      },
+      "properties": {
+        "clues_imb": "GRIMB009276",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL CHAUTIPA",
+        "nombre_comercial": "CARAVANA TIPO 0 CHAUTIPA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "CHAUTIPA",
+        "municipio": "OLINALA",
+        "entidad": "GUERRERO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6834194,
+          17.1951942
+        ]
+      },
+      "properties": {
+        "clues_imb": "GRIMB009281",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL LA SOLEDAD",
+        "nombre_comercial": "CARAVANA TIPO 0 LA SOLEDAD",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LA SOLEDAD",
+        "municipio": "MALINALTEPEC",
+        "entidad": "GUERRERO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.045104,
+          17.1288233
+        ]
+      },
+      "properties": {
+        "clues_imb": "GRIMB009310",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL EL NUEVO AGUACATE",
+        "nombre_comercial": "CARAVANA TIPO 0 EL NUEVO AGUACATE",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "EL AGUACATE",
+        "municipio": "ACATEPEC",
+        "entidad": "GUERRERO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6668689,
+          17.0643428
+        ]
+      },
+      "properties": {
+        "clues_imb": "GRIMB009334",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL  PORTEZUELO DEL CLARÍN",
+        "nombre_comercial": "CARAVANA TIPO 0 PORTEZUELO DEL CLARÍN",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "PORTEZUELO DEL CLARIN",
+        "municipio": "ILIATENCO",
+        "entidad": "GUERRERO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3556825,
+          17.4199553
+        ]
+      },
+      "properties": {
+        "clues_imb": "GRIMB009380",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL ALMOLONGA DE OCAMPO",
+        "nombre_comercial": "CARAVANA TIPO 0 ALMOLONGA DE OCAMPO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "ALMOLONGA DE OCAMPO (ALMOLONGA)",
+        "municipio": "ALCOZAUCA DE GUERRERO",
+        "entidad": "GUERRERO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.506382,
+          16.816353
+        ]
+      },
+      "properties": {
+        "clues_imb": "GRIMB009392",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL TIPO 0 ALCAMANI",
+        "nombre_comercial": "CARAVANA TIPO 0 ALCAMANI",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "ALCAMANI",
+        "municipio": "ACATEPEC",
+        "entidad": "GUERRERO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3628064,
+          17.0827244
+        ]
+      },
+      "properties": {
+        "clues_imb": "GRIMB009462",
+        "nombre_de_la_unidad": "UNIDAD MEDICA MOVIL SAN JOSE AMOLTEPEC",
+        "nombre_comercial": "UNIDAD MEDICA MOVIL SAN JOSE AMOLTEPEC",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SAN JOSE AMOLTEPEC (AMOLTEPEC)",
+        "municipio": "OLINALA",
+        "entidad": "GUERRERO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.491749,
+          17.533957
+        ]
+      },
+      "properties": {
+        "clues_imb": "GRIMB009556",
+        "nombre_de_la_unidad": "UNIDAD MÓVIL DE MASTOGRAFÍA NO.2",
+        "nombre_comercial": "UNIDAD MOVIL DE MASTOGRAFÍA NO.2",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "CHILPANCINGO DE LOS BRAVO",
+        "municipio": "CHILPANCINGO DE LOS BRAVO",
+        "entidad": "GUERRERO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.4979308,
+          17.5327904
+        ]
+      },
+      "properties": {
+        "clues_imb": "GRIMB010553",
+        "nombre_de_la_unidad": "COORDINACIÓN ESTATAL DE GUERRERO DEL IMSS BIENESTAR",
+        "nombre_comercial": "COORDINACIÓN ESTATAL DE GUERRERO DEL IMSS BIENESTAR",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "OFICINAS ADMINISTRATIVAS",
+        "localidad": "CHILPANCINGO DE LOS BRAVO",
+        "municipio": "CHILPANCINGO DE LOS BRAVO",
+        "entidad": "GUERRERO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "añadido"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.634359,
+          20.727182
+        ]
+      },
+      "properties": {
+        "clues_imb": "HGIMB005051",
+        "nombre_de_la_unidad": "CARAVANA 5 TIANGUISTENGO",
+        "nombre_comercial": "CARAVANA 5 TIANGUISTENGO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "TIANGUISTENGO",
+        "municipio": "TIANGUISTENGO",
+        "entidad": "HIDALGO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.42272,
+          21.13722
+        ]
+      },
+      "properties": {
+        "clues_imb": "HGIMB005092",
+        "nombre_de_la_unidad": "CARAVANA HUEJUTLA",
+        "nombre_comercial": "CARAVANA HUEJUTLA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "HUEJUTLA DE REYES",
+        "municipio": "HUEJUTLA DE REYES",
+        "entidad": "HIDALGO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.42272,
+          21.13722
+        ]
+      },
+      "properties": {
+        "clues_imb": "HGIMB005104",
+        "nombre_de_la_unidad": "CARAVANA IXCATEPEC",
+        "nombre_comercial": "CARAVANA IXCATEPEC",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "HUEJUTLA DE REYES",
+        "municipio": "HUEJUTLA DE REYES",
+        "entidad": "HIDALGO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.42272,
+          21.13722
+        ]
+      },
+      "properties": {
+        "clues_imb": "HGIMB005116",
+        "nombre_de_la_unidad": "CARAVANA TEHUETLAN 1",
+        "nombre_comercial": "CARAVANA TEHUETLAN 1",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "HUEJUTLA DE REYES",
+        "municipio": "HUEJUTLA DE REYES",
+        "entidad": "HIDALGO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.42272,
+          21.13722
+        ]
+      },
+      "properties": {
+        "clues_imb": "HGIMB005121",
+        "nombre_de_la_unidad": "CARAVANA IXTLAHUAC",
+        "nombre_comercial": "CARAVANA IXTLAHUAC",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "HUEJUTLA DE REYES",
+        "municipio": "HUEJUTLA DE REYES",
+        "entidad": "HIDALGO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.42272,
+          21.13722
+        ]
+      },
+      "properties": {
+        "clues_imb": "HGIMB005133",
+        "nombre_de_la_unidad": "CARAVANA LAS CHACAS",
+        "nombre_comercial": "CARAVANA LAS CHACAS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "HUEJUTLA DE REYES",
+        "municipio": "HUEJUTLA DE REYES",
+        "entidad": "HIDALGO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19656371,
+          20.4074095569365
+        ]
+      },
+      "properties": {
+        "clues_imb": "HGIMB005145",
+        "nombre_de_la_unidad": "CARAVANA SAN BARTOLO ZONA SUR",
+        "nombre_comercial": "CARAVANA SAN BARTOLO ZONA SUR",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "COLONIA INDUSTRIAL",
+        "municipio": "SAN BARTOLO TUTOTEPEC",
+        "entidad": "HIDALGO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.272695,
+          20.894778
+        ]
+      },
+      "properties": {
+        "clues_imb": "HGIMB005162",
+        "nombre_de_la_unidad": "CARAVANA ATLAJCO",
+        "nombre_comercial": "CARAVANA ATLAJCO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "OHUATIPA",
+        "municipio": "XOCHIATIPAN",
+        "entidad": "HIDALGO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.770976,
+          20.122453
+        ]
+      },
+      "properties": {
+        "clues_imb": "HGIMB005174",
+        "nombre_de_la_unidad": "ALMACÉN CENTRAL",
+        "nombre_comercial": "ALMACÉN CENTRAL",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "ALMACENES",
+        "localidad": "PACHUCA DE SOTO",
+        "municipio": "PACHUCA DE SOTO",
+        "entidad": "HIDALGO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.762472,
+          20.300569
+        ]
+      },
+      "properties": {
+        "clues_imb": "HGIMB005401",
+        "nombre_de_la_unidad": "CARAVANA 3 TECOZAUTLA",
+        "nombre_comercial": "CARAVANA 3 TECOZAUTLA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LLANO LARGO",
+        "municipio": "HUICHAPAN",
+        "entidad": "HIDALGO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.762472,
+          20.300569
+        ]
+      },
+      "properties": {
+        "clues_imb": "HGIMB005413",
+        "nombre_de_la_unidad": "CARAVANA 5 TECOZAUTLA",
+        "nombre_comercial": "CARAVANA 5 TECOZAUTLA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LLANO LARGO",
+        "municipio": "HUICHAPAN",
+        "entidad": "HIDALGO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.762472,
+          20.300569
+        ]
+      },
+      "properties": {
+        "clues_imb": "HGIMB005425",
+        "nombre_de_la_unidad": "CARAVANA 2 NOPALA DE VILLAGRÁN",
+        "nombre_comercial": "CARAVANA 2 NOPALA DE VILLAGRÁN",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LLANO LARGO",
+        "municipio": "HUICHAPAN",
+        "entidad": "HIDALGO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.116667,
+          20.6125
+        ]
+      },
+      "properties": {
+        "clues_imb": "HGIMB005430",
+        "nombre_de_la_unidad": "CARAVANA 1 CARDONAL",
+        "nombre_comercial": "CARAVANA 1 CARDONAL",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "CARDONAL",
+        "municipio": "CARDONAL",
+        "entidad": "HIDALGO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.166706,
+          20.725249
+        ]
+      },
+      "properties": {
+        "clues_imb": "HGIMB005442",
+        "nombre_de_la_unidad": "CARAVANA 2 NICOLÁS FLORES",
+        "nombre_comercial": "CARAVANA 2 NICOLÁS FLORES",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "BOCUA",
+        "municipio": "NICOLAS FLORES",
+        "entidad": "HIDALGO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.402009,
+          20.969851
+        ]
+      },
+      "properties": {
+        "clues_imb": "HGIMB005454",
+        "nombre_de_la_unidad": "CARAVANA 5 YAHUALICA",
+        "nombre_comercial": "CARAVANA 5 YAHUALICA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "TLALCHIYAHUALICA",
+        "municipio": "YAHUALICA",
+        "entidad": "HIDALGO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.245322,
+          21.024687
+        ]
+      },
+      "properties": {
+        "clues_imb": "HGIMB005466",
+        "nombre_de_la_unidad": "CARAVANA 1 HUAHUTLA",
+        "nombre_comercial": "CARAVANA 1 HUAHUTLA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "TAMOYON I",
+        "municipio": "HUAUTLA",
+        "entidad": "HIDALGO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.272524,
+          20.894756
+        ]
+      },
+      "properties": {
+        "clues_imb": "HGIMB005471",
+        "nombre_de_la_unidad": "CARAVANA 4 XOCHIATIPAN",
+        "nombre_comercial": "CARAVANA 4 XOCHIATIPAN",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "OHUATIPA",
+        "municipio": "XOCHIATIPAN",
+        "entidad": "HIDALGO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.203501,
+          20.160503
+        ]
+      },
+      "properties": {
+        "clues_imb": "HGIMB005483",
+        "nombre_de_la_unidad": "CARAVANA 1 ACAXOCHITLÁN",
+        "nombre_comercial": "CARAVANA 1 ACAXOCHITLÁN",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "ACAXOCHITLAN",
+        "municipio": "ACAXOCHITLAN",
+        "entidad": "HIDALGO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.491167,
+          20.958658
+        ]
+      },
+      "properties": {
+        "clues_imb": "HGIMB005495",
+        "nombre_de_la_unidad": "CARAVANA 4 HUAZALINGO",
+        "nombre_comercial": "CARAVANA 4 HUAZALINGO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "HUAZALINGO",
+        "municipio": "HUAZALINGO",
+        "entidad": "HIDALGO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.630922,
+          19.567168
+        ]
+      },
+      "properties": {
+        "clues_imb": "MCIMB009664",
+        "nombre_de_la_unidad": "U. MÓVIL ISEM RANCHO ALEGRE",
+        "nombre_comercial": "U. MÓVIL ISEM RANCHO ALEGRE",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "JIQUIPILCO",
+        "municipio": "JIQUIPILCO",
+        "entidad": "MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2274753,
+          19.4657324
+        ]
+      },
+      "properties": {
+        "clues_imb": "MCIMB012481",
+        "nombre_de_la_unidad": "COORDINACIÓN ESTATAL IMSS BIENESTAR SEDE NAUCALPAN",
+        "nombre_comercial": "COORDINACIÓN ESTATAL IMSS BIENESTAR SEDE NAUCALPAN",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "OFICINAS ADMINISTRATIVAS",
+        "localidad": "NAUCALPAN DE JUAREZ",
+        "municipio": "NAUCALPAN DE JUAREZ",
+        "entidad": "MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "añadido"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.805413,
+          18.961618
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB000785",
+        "nombre_de_la_unidad": "UNIDAD MOVIL SAN MARTIN DE LA LUZ",
+        "nombre_comercial": "UNIDAD MOVIL SAN MARTIN DE LA LUZ",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LA HUACANA",
+        "municipio": "LA HUACANA",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.805203,
+          18.961568
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB000925",
+        "nombre_de_la_unidad": "UNIDAD MOVIL SAN NICOLÁS (NUEVO INGUARAN)",
+        "nombre_comercial": "UNIDAD MOVIL SAN NICOLÁS (NVO INGUARAN)",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LA HUACANA",
+        "municipio": "LA HUACANA",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.910941,
+          19.455162
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004174",
+        "nombre_de_la_unidad": "CARAVANA ZAPOTILLO",
+        "nombre_comercial": "CARAVANA ZAPOTILLO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "EL ZAPOTILLO",
+        "municipio": "TZITZIO",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.16499,
+          19.957155
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004186",
+        "nombre_de_la_unidad": "UNIDAD MEDICA MOVIL FAMILIAR TEJOCOTE POLVILLAS",
+        "nombre_comercial": "UNIDAD MEDICA MOVIL FAMILIAR TEJOCOTE POLVILLAS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "ATOTONILCO",
+        "municipio": "CONTEPEC",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.335,
+          18.6597
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004203",
+        "nombre_de_la_unidad": "CARAVANA ATZIMBARO",
+        "nombre_comercial": "CARAVANA ATZIMBARO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "ATZIMBARO",
+        "municipio": "HUETAMO",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.408051,
+          19.215241
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004215",
+        "nombre_de_la_unidad": "CARAVANA EL HONDABLE",
+        "nombre_comercial": "CARAVANA EL HONDABLE",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SUSUPUATO DE GUERRERO",
+        "municipio": "SUSUPUATO",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.736336,
+          18.901035
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004220",
+        "nombre_de_la_unidad": "CARAVANA SIETE CARRERAS",
+        "nombre_comercial": "CARAVANA SIETE CARRERAS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "GALLITOS (SIETE CARRERAS)",
+        "municipio": "TIQUICHEO DE NICOLAS ROMERO",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.2793697,
+          19.3930513
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004244",
+        "nombre_de_la_unidad": "CARAVANA BALCONES",
+        "nombre_comercial": "CARAVANA BALCONES",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "BALCONES",
+        "municipio": "MADERO",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.790368,
+          18.738383
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004290",
+        "nombre_de_la_unidad": "UNIDAD MOVIL MIRADOR DE CHAPULA",
+        "nombre_comercial": "UNIDAD MOVIL MIRADOR DE CHAPULA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "AGUILILLA",
+        "municipio": "AGUILILLA",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.160044,
+          18.780664
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004302",
+        "nombre_de_la_unidad": "UNIDAD MOVIL POTRERO DE LAS HIGUERAS",
+        "nombre_comercial": "UNIDAD MOVIL POTRERO DE LAS HIGUERAS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "BARRANCA SECA",
+        "municipio": "COALCOMAN DE VAZQUEZ PALLARES",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.129582,
+          18.2263
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004314",
+        "nombre_de_la_unidad": "CARAVANA  CUIRARA",
+        "nombre_comercial": "CARAVANA CUIRARA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "TIZUPAN",
+        "municipio": "AQUILA",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.289435,
+          18.35702
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004326",
+        "nombre_de_la_unidad": "CARAVANA  ZAPOTE NORTE",
+        "nombre_comercial": "CARAVANA ZAPOTE NORTE",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "ZAPOTE NORTE",
+        "municipio": "ARTEAGA",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.353964,
+          19.093045
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004401",
+        "nombre_de_la_unidad": "UNIDAD MOVIL SAN JUAN DE LOS PLATANOS",
+        "nombre_comercial": "U.M. SAN JUAN DE LOS PLATANOS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "APATZINGAN DE LA CONSTITUCION",
+        "municipio": "APATZINGAN",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.585589,
+          19.206996
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004413",
+        "nombre_de_la_unidad": "UNIDAD MOVIL 18 DE MARZO",
+        "nombre_comercial": "UNIDAD MOVIL 18 DE MARZOL",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "BUENAVISTA TOMATLAN",
+        "municipio": "BUENAVISTA",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.088395,
+          19.0292562
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004425",
+        "nombre_de_la_unidad": "UNIDAD MOVIL EL LETRERO",
+        "nombre_comercial": "U.M. EL LETRERO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "NUEVA ITALIA DE RUIZ",
+        "municipio": "MUGICA",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.2198282,
+          19.1456114
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004430",
+        "nombre_de_la_unidad": "UNIDAD MOVIL USPERO",
+        "nombre_comercial": "U.M. USPERO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "PARACUARO",
+        "municipio": "PARACUARO",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.7159503,
+          19.98403
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004442",
+        "nombre_de_la_unidad": "UNIDAD MOVIL JIQUILPAN",
+        "nombre_comercial": "UM JIQUILPAN",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "JIQUILPAN DE JUAREZ",
+        "municipio": "JIQUILPAN",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.568786,
+          20.116489
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004454",
+        "nombre_de_la_unidad": "UNIDAD MOVIL PAJACUARÁN",
+        "nombre_comercial": "UM PAJACUARÁN",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "PAJACUARAN",
+        "municipio": "PAJACUARAN",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.010349,
+          19.911756
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004466",
+        "nombre_de_la_unidad": "UNIDAD MOVIL PURÉPERO",
+        "nombre_comercial": "UM PURÉPERO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "PUREPERO DE ECHAIZ",
+        "municipio": "PUREPERO",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.484151,
+          19.739064
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004471",
+        "nombre_de_la_unidad": "UNIDAD MOVIL TINGÜINDÍN",
+        "nombre_comercial": "UM TINGÜINDÍN",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "TINGÜINDIN",
+        "municipio": "TINGÜINDIN",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.599357,
+          20.020338
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004483",
+        "nombre_de_la_unidad": "UNIDAD MOVIL VILLAMAR",
+        "nombre_comercial": "UM VILLAMAR",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "VILLAMAR",
+        "municipio": "VILLAMAR",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.281217,
+          19.982667
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004495",
+        "nombre_de_la_unidad": "UNIDAD MOVIL ZAMORA",
+        "nombre_comercial": "UM ZAMORA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "ZAMORA DE HIDALGO",
+        "municipio": "ZAMORA",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.052208,
+          19.398197
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004500",
+        "nombre_de_la_unidad": "UNIDAD MOVIL LA ZAUDA",
+        "nombre_comercial": "UNIDAD MOVIL LA ZAUDA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LA HUACANA",
+        "municipio": "LA HUACANA",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.306058,
+          19.291643
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004512",
+        "nombre_de_la_unidad": "UNIDAD MOVIL BARRANQUILLAS",
+        "nombre_comercial": "UM BARRANQUILLAS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "TANCITARO",
+        "municipio": "TANCITARO",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.874702,
+          19.169307
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004524",
+        "nombre_de_la_unidad": "UNIDAD MOVIL LA CEBADILLA",
+        "nombre_comercial": "UM LA CEBADILLA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "NUEVO URECHO",
+        "municipio": "NUEVO URECHO",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.414643,
+          19.52216
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004536",
+        "nombre_de_la_unidad": "UNIDAD MOVIL PLAN DE AYALA",
+        "nombre_comercial": "UM PLAN DE AYALA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "PERIBAN DE RAMOS",
+        "municipio": "PERIBAN",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.052208,
+          19.398197
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004541",
+        "nombre_de_la_unidad": "UNIDAD MOVIL PALITO VERDE",
+        "nombre_comercial": "UM PALITO VERDE",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LOMBARDIA",
+        "municipio": "GABRIEL ZAMORA",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.052208,
+          19.398197
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004553",
+        "nombre_de_la_unidad": "UNIDAD MOVIL MILPILLAS",
+        "nombre_comercial": "UM MILPILLAS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "URUAPAN",
+        "municipio": "URUAPAN",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.432777,
+          19.312249
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004565",
+        "nombre_de_la_unidad": "UNIDAD MOVIL ZICATA DE MORELOS",
+        "nombre_comercial": "U.M. ZICATA DE MORELOS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "BENITO JUAREZ",
+        "municipio": "JUAREZ",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.906836,
+          18.615876
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004570",
+        "nombre_de_la_unidad": "UNIDAD MOVIL QUENCHENDIO",
+        "nombre_comercial": "U.M. QUENCHENDIO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "HUETAMO DE NUÑEZ",
+        "municipio": "HUETAMO",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.620889,
+          19.538079
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004582",
+        "nombre_de_la_unidad": "UNIDAD MOVIL SAN ANDRES LA VENTA",
+        "nombre_comercial": "U.M. SAN ANDRES LA VENTA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "CIUDAD HIDALGO",
+        "municipio": "HIDALGO",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.599069,
+          20.30187
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004594",
+        "nombre_de_la_unidad": "UNIDAD MOVIL CORRALES",
+        "nombre_comercial": "U.M. CORRALES",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "PASTOR ORTIZ",
+        "municipio": "JOSE SIXTO VERDUZCO",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.494907,
+          20.246218
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004606",
+        "nombre_de_la_unidad": "UNIDAD MOVIL EL PILAR",
+        "nombre_comercial": "U.M. EL PILAR",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "ISAAC ARRIAGA (SANTA ANA MANCERA)",
+        "municipio": "PURUANDIRO",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.2845784,
+          20.3419102
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004611",
+        "nombre_de_la_unidad": "UNIDAD MOVIL EL TEQUESQUITE",
+        "nombre_comercial": "U.M. EL TEQUESQUITE",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "YURECUARO",
+        "municipio": "YURECUARO",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.415496,
+          20.002723
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004623",
+        "nombre_de_la_unidad": "UNIDAD MOVIL LA NORIA",
+        "nombre_comercial": "U.M. LA NORIA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "VILLA MORELOS",
+        "municipio": "MORELOS",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.415496,
+          20.002723
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004635",
+        "nombre_de_la_unidad": "UNIDAD MOVIL LA PALMA",
+        "nombre_comercial": "U.M. LA PALMA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "VILLA MORELOS",
+        "municipio": "MORELOS",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.712124,
+          20.148044
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004640",
+        "nombre_de_la_unidad": "UNIDAD MOVIL MIRAVALLE",
+        "nombre_comercial": "U.M. MIRAVALLE",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "ANGAMACUTIRO DE LA UNION",
+        "municipio": "ANGAMACUTIRO",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.335418,
+          20.285543
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004652",
+        "nombre_de_la_unidad": "UNIDAD MOVIL VILLANUEVA",
+        "nombre_comercial": "U.M. VILLANUEVA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "TANHUATO DE GUERRERO",
+        "municipio": "TANHUATO",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.022687,
+          20.337131
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004664",
+        "nombre_de_la_unidad": "UNIDAD MOVIL ZARAGOZA",
+        "nombre_comercial": "U.M. ZARAGOZA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LA PIEDAD DE CABADAS",
+        "municipio": "LA PIEDAD",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.448881,
+          19.897893
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004676",
+        "nombre_de_la_unidad": "UNIDAD MOVIL CEBADILLAS I",
+        "nombre_comercial": "U.M. CEBADILLAS I",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "MARAVATIO DE OCAMPO",
+        "municipio": "MARAVATIO",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.448881,
+          19.897893
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004681",
+        "nombre_de_la_unidad": "UNIDAD MOVIL LAS PALOMAS",
+        "nombre_comercial": "U.M. LAS PALOMAS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "MARAVATIO DE OCAMPO",
+        "municipio": "MARAVATIO",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.448881,
+          19.897893
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004693",
+        "nombre_de_la_unidad": "UNIDAD MOVIL SAN MIGUEL EL ALTO",
+        "nombre_comercial": "U.M. SAN MIGUEL EL ALTO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "MARAVATIO DE OCAMPO",
+        "municipio": "MARAVATIO",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.175579,
+          19.794204
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004705",
+        "nombre_de_la_unidad": "UNIDAD MOVIL LA PALMA",
+        "nombre_comercial": "U.M. LA PALMA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "TARIMBARO",
+        "municipio": "TARIMBARO",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.1923919,
+          19.705005
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004710",
+        "nombre_de_la_unidad": "UNIDAD MOVIL PINO REAL",
+        "nombre_comercial": "U.M. PINO REAL",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "CHARO",
+        "municipio": "CHARO",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.1923919,
+          19.705005
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004722",
+        "nombre_de_la_unidad": "UNIDAD MOVIL UMECUARO",
+        "nombre_comercial": "U.M. UMECUARO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "MORELIA",
+        "municipio": "MORELIA",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.1727695,
+          19.6869847
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB004792",
+        "nombre_de_la_unidad": "COORDINACIÓN ESTATAL IMSS BIENESTAR MICHOACÁN",
+        "nombre_comercial": "COORDINACIÓN ESTATAL IMSS BIENESTAR MICHOACÁN",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "OFICINAS ADMINISTRATIVAS",
+        "localidad": "MORELIA",
+        "municipio": "MORELIA",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "añadido"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.9958571,
+          19.0053281
+        ]
+      },
+      "properties": {
+        "clues_imb": "MSIMB002433",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL TLALNEPANTLA",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL TLALNEPANTLA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "TLALNEPANTLA",
+        "municipio": "TLALNEPANTLA",
+        "entidad": "MORELOS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.117,
+          18.6882
+        ]
+      },
+      "properties": {
+        "clues_imb": "MSIMB002445",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL TLALTIZAPÁN",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL TLALTIZAPÁN",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "TLALTIZAPAN",
+        "municipio": "TLALTIZAPAN DE ZAPATA",
+        "entidad": "MORELOS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.3266,
+          18.6159
+        ]
+      },
+      "properties": {
+        "clues_imb": "MSIMB002450",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL PUENTE DE IXTLA",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL PUENTE DE IXTLA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "PUENTE DE IXTLA",
+        "municipio": "PUENTE DE IXTLA",
+        "entidad": "MORELOS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.352,
+          18.7718
+        ]
+      },
+      "properties": {
+        "clues_imb": "MSIMB002462",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL MIACATLÁN",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL MIACATLÁN",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "MIACATLAN",
+        "municipio": "MIACATLAN",
+        "entidad": "MORELOS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.226409,
+          18.784226
+        ]
+      },
+      "properties": {
+        "clues_imb": "MSIMB002474",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL XOCHITEPEC",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL XOCHITEPEC",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "XOCHITEPEC",
+        "municipio": "XOCHITEPEC",
+        "entidad": "MORELOS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.20061,
+          18.930401
+        ]
+      },
+      "properties": {
+        "clues_imb": "MSIMB002486",
+        "nombre_de_la_unidad": "C&M DISTRIBUIDORA DE MEDICAMENTOS Y MATERIAL DE CURACIÓN S.A DE C.V",
+        "nombre_comercial": "C&M DISTRIBUIDORA DE MEDICAMENTOS Y MATERIAL DE CURACIÓN S.A DE C.V",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "ALMACENES",
+        "localidad": "CUERNAVACA",
+        "municipio": "CUERNAVACA",
+        "entidad": "MORELOS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "añadido"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9251371,
+          21.5199193
+        ]
+      },
+      "properties": {
+        "clues_imb": "NTIMB002786",
+        "nombre_de_la_unidad": "ALMACÉN IMSS - BIENESTAR",
+        "nombre_comercial": "ALMACÉN IMSS - BIENESTAR",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "ALMACENES",
+        "localidad": "TEPIC",
+        "municipio": "TEPIC",
+        "entidad": "NAYARIT",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.70905,
+          17.03609
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB000012",
+        "nombre_de_la_unidad": "ALMACEN DELEGACIONAL IMSS-BIENESTAR OAXACA",
+        "nombre_comercial": "ALMACEN DELEGACIONAL IMSS-BIENESTAR OAXACA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "ALMACENES",
+        "localidad": "OAXACA DE JUAREZ",
+        "municipio": "OAXACA DE JUAREZ",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.0705,
+          17.0523
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB000391",
+        "nombre_de_la_unidad": "UM 04 TAMAZULÁPAM DEL ESPÍRITU SANTO",
+        "nombre_comercial": "UM 04 TAMAZULÁPAM DEL ESPÍRITU SANTO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "TAMAZULAPAM DEL ESPIRITU SANTO",
+        "municipio": "TAMAZULAPAM DEL ESPIRITU SANTO",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.0655,
+          17.0545
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB000403",
+        "nombre_de_la_unidad": "UM 06 TAMAZULÁPAM DEL ESPÍRITU SANTO",
+        "nombre_comercial": "UM 06 TAMAZULÁPAM DEL ESPÍRITU SANTO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "TAMAZULAPAM DEL ESPIRITU SANTO",
+        "municipio": "TAMAZULAPAM DEL ESPIRITU SANTO",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9956,
+          17.0219
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB000420",
+        "nombre_de_la_unidad": "UM 15 LINDA VISTA ",
+        "nombre_comercial": "UM 15 LINDA VISTA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LINDA VISTA",
+        "municipio": "TAMAZULAPAM DEL ESPIRITU SANTO",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4863,
+          17.3308
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB000572",
+        "nombre_de_la_unidad": "UM 02 IXTLÁN DE JUÁREZ",
+        "nombre_comercial": "UM 02 IXTLÁN DE JUÁREZ",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "IXTLAN DE JUAREZ",
+        "municipio": "IXTLAN DE JUAREZ",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.976,
+          16.606
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB000840",
+        "nombre_de_la_unidad": "UM 13 NEJAPA DE MADERO",
+        "nombre_comercial": "UM 13 NEJAPA DE MADERO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "NEJAPA DE MADERO",
+        "municipio": "NEJAPA DE MADERO",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6148,
+          16.0169
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB001115",
+        "nombre_de_la_unidad": "UM 12 SAN AGUSTÍN LOXICHA",
+        "nombre_comercial": "UM 12 SAN AGUSTÍN LOXICHA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SAN AGUSTIN LOXICHA",
+        "municipio": "SAN AGUSTIN LOXICHA",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.1038,
+          16.4988
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB001371",
+        "nombre_de_la_unidad": "UM 07 SAN CARLOS YAUTEPEC",
+        "nombre_comercial": "UM 07 SAN CARLOS YAUTEPEC",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SAN CARLOS YAUTEPEC",
+        "municipio": "SAN CARLOS YAUTEPEC",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.3934,
+          16.7994
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB001436",
+        "nombre_de_la_unidad": "UM 14 SAN DIONISIO OCOTEPEC",
+        "nombre_comercial": "UM 14 SAN DIONISIO OCOTEPEC",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SAN DIONISIO OCOTEPEC",
+        "municipio": "SAN DIONISIO OCOTEPEC",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7179,
+          18.1512
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB001774",
+        "nombre_de_la_unidad": "UM 17 SAN JOSÉ TENANGO",
+        "nombre_comercial": "UM 17 SAN JOSÉ TENANGO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SAN JOSE TENANGO",
+        "municipio": "SAN JOSE TENANGO",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.9628,
+          17.0936
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB002206",
+        "nombre_de_la_unidad": "UM 03 LA ZACATERA",
+        "nombre_comercial": "UM 03 LA ZACATERA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LA ZACATERA",
+        "municipio": "SAN JUAN GUICHICOVI",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.2814,
+          17.4297
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB002433",
+        "nombre_de_la_unidad": "UM 10 SAN JUAN YAEÉ ",
+        "nombre_comercial": "UM 10 SAN JUAN YAEÉ",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SAN JUAN YAEE",
+        "municipio": "SAN JUAN YAEE",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8676,
+          18.1428
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB002660",
+        "nombre_de_la_unidad": "UM 14 SAN MATEO YOLOXOCHITLÁN ",
+        "nombre_comercial": "UM 14 SAN MATEO YOLOXOCHITLÁN",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SAN MATEO YOLOXOCHITLAN",
+        "municipio": "SAN MATEO YOLOXOCHITLAN",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.98,
+          16.517
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB002964",
+        "nombre_de_la_unidad": "UM 10 VILLA SOLA DE VEGA",
+        "nombre_comercial": "UM 10 VILLA SOLA DE VEGA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "VILLA SOLA DE VEGA",
+        "municipio": "VILLA SOLA DE VEGA",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4652,
+          16.0889
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB003046",
+        "nombre_de_la_unidad": "UM 15 SAN MIGUEL SUCHIXTEPEC",
+        "nombre_comercial": "UM 15 SAN MIGUEL SUCHIXTEPEC",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SAN MIGUEL SUCHIXTEPEC",
+        "municipio": "SAN MIGUEL SUCHIXTEPEC",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.0037,
+          16.6609
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB003483",
+        "nombre_de_la_unidad": "UM 01 SOLEDAD SALINAS",
+        "nombre_comercial": "UM 01 SOLEDAD SALINAS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LA SOLEDAD SALINAS",
+        "municipio": "SAN PEDRO QUIATONI",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.0046,
+          16.6613
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB003495",
+        "nombre_de_la_unidad": "UM 08 SOLEDAD SALINAS",
+        "nombre_comercial": "UM 08 SOLEDAD SALINAS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LA SOLEDAD SALINAS",
+        "municipio": "SAN PEDRO QUIATONI",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7046,
+          17.9769
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB003553",
+        "nombre_de_la_unidad": "UM 16 CONCEPCIÁN PÁPALO",
+        "nombre_comercial": "UM 16 CONCEPCIÁN PÁPALO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SAN PEDRO TEUTILA",
+        "municipio": "SAN PEDRO TEUTILA",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.5512,
+          17.5887
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB003681",
+        "nombre_de_la_unidad": "UM 11 SAN PEDRO YÓLOX ",
+        "nombre_comercial": "UM 11 SAN PEDRO YÓLOX",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SAN PEDRO YOLOX",
+        "municipio": "SAN PEDRO YOLOX",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5475,
+          16.5433
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB004096",
+        "nombre_de_la_unidad": "UM 03 LA SOLEDAD  COFRADÍA",
+        "nombre_comercial": "UM 03 LA SOLEDAD COFRADÍA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LA SOLEDAD COFRADIA",
+        "municipio": "SANTA CRUZ ZENZONTEPEC",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.8776,
+          16.2856
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB004265",
+        "nombre_de_la_unidad": "UM 12 SANTA MARÍA ECATEPEC",
+        "nombre_comercial": "UM 12 SANTA MARÍA ECATEPEC",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SANTA MARIA ECATEPEC",
+        "municipio": "SANTA MARIA ECATEPEC",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.3679,
+          16.1357
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB004434",
+        "nombre_de_la_unidad": "UM 13 SANTA MARÍA OZOLOTEPEC",
+        "nombre_comercial": "UM 13 SANTA MARÍA OZOLOTEPEC",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SANTA MARIA OZOLOTEPEC",
+        "municipio": "SANTA MARIA OZOLOTEPEC",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2422,
+          16.7236
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB005105",
+        "nombre_de_la_unidad": "UM 11 RÍO HUMO ",
+        "nombre_comercial": "UM 11 RÍO HUMO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "RIO HUMO",
+        "municipio": "SANTIAGO TEXTITLAN",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.887,
+          16.886
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007041",
+        "nombre_de_la_unidad": "PFAM TIERRA BLANCA",
+        "nombre_comercial": "PFAM TIERRA BLANCA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "TIERRA BLANCA",
+        "municipio": "SANTA MARIA CHIMALAPA",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.8094,
+          17.4722
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007053",
+        "nombre_de_la_unidad": "PFAM SANTA CECILIA DE MADERO",
+        "nombre_comercial": "PFAM SANTA CECILIA DE MADERO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SANTA CECILIA DE MADERO",
+        "municipio": "SAN JUAN LALANA",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.649,
+          15.908
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007065",
+        "nombre_de_la_unidad": "PFAM EL COROZAL",
+        "nombre_comercial": "PFAM EL COROZAL",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "EL COROZAL",
+        "municipio": "SAN AGUSTIN LOXICHA",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5956,
+          16.5944
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007070",
+        "nombre_de_la_unidad": "PFAM LA MESILA",
+        "nombre_comercial": "PFAM LA MESLA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LA MESILLA",
+        "municipio": "SANTIAGO AMOLTEPEC",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0753,
+          17.1231
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007082",
+        "nombre_de_la_unidad": "PFAM SAN JUAN MONTE FLOR",
+        "nombre_comercial": "PFAM SAN JUAN MONTE FLOR",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SAN JUAN MONTE FLOR",
+        "municipio": "SAN JUAN TAMAZOLA",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.0522,
+          17.398
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007094",
+        "nombre_de_la_unidad": "PFAM SANTA CRUZ RANCHO VIEJO",
+        "nombre_comercial": "PFAM SANTA CRUZ RANCHO VIEJO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SANTA CRUZ RANCHO VIEJO",
+        "municipio": "SAN SEBASTIAN TECOMAXTLAHUACA",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3356,
+          17.4594
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007106",
+        "nombre_de_la_unidad": "PFAM- LA DIVINA PRVIDENCIA",
+        "nombre_comercial": "PFAM - LA DIVINA PROVIDENCIA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LA DIVINA PROVIDENCIA",
+        "municipio": "SAN MARTIN PERAS",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.633,
+          16.281
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007111",
+        "nombre_de_la_unidad": "PFAM- SAN MIGUEL YOGOVAN",
+        "nombre_comercial": "PFAM -SAN MIGUEL YOGOVANA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SAN MIGUEL YOGOVANA",
+        "municipio": "MIAHUATLAN DE PORFIRIO DIAZ",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.967,
+          16.939
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007123",
+        "nombre_de_la_unidad": "PFAM - EL TEMASCAL",
+        "nombre_comercial": "PFAM - EL TEMASCAL",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "EL TEMASCAL",
+        "municipio": "SAN MIGUEL PERAS",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.827,
+          18.25
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007135",
+        "nombre_de_la_unidad": "PFAM EL VERGEL",
+        "nombre_comercial": "PFAM EL VERGEL",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "EL VERGEL",
+        "municipio": "SANTA MARIA CHILCHOTLA",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.5164,
+          18.0867
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007140",
+        "nombre_de_la_unidad": "PFAM COLONIA LA CENTRAL",
+        "nombre_comercial": "PFAM COLONIA LA CENTRAL",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "COLONIA LA CENTRAL",
+        "municipio": "SAN FELIPE JALAPA DE DIAZ",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.205,
+          16.492
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007152",
+        "nombre_de_la_unidad": "PFAM PALO DE LIMA",
+        "nombre_comercial": "PFAM PALO DE LIMA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "EL PALO DE LIMA",
+        "municipio": "SAN LORENZO TEXMELUCAN",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.52,
+          18.136
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007164",
+        "nombre_de_la_unidad": "PFAM COLONIA BUENA VISTA",
+        "nombre_comercial": "PFAM COLONIA BUENA VISTA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "COLONIA BUENA VISTA",
+        "municipio": "SAN PEDRO IXCATLAN",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.549,
+          17.875
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007176",
+        "nombre_de_la_unidad": "PFAM LLANO GRANDE",
+        "nombre_comercial": "PFAM LLANO GRANDE",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LLANO GRANDE",
+        "municipio": "SAN FRANCISCO TEOPAN",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.417962,
+          16.830991
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007246",
+        "nombre_de_la_unidad": "UM  04 NUEVA ESPERANZA ",
+        "nombre_comercial": "UM 04 NUEVA ESPERANZA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "NUEVA ESPERANZA",
+        "municipio": "GUEVEA DE HUMBOLDT",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.525355,
+          16.797719
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007251",
+        "nombre_de_la_unidad": "UM 11 SANTO DOMINGO LA  REFORMA ",
+        "nombre_comercial": "UM 11 SANTO DOMINGO LA REFORMA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SANTO DOMINGO LA REFORMA",
+        "municipio": "SANTIAGO LACHIGUIRI",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.26909,
+          17.328335
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007263",
+        "nombre_de_la_unidad": "UM 06 EL TORTUGUERO",
+        "nombre_comercial": "UM 06 EL TORTUGUERO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "EL TORTUGUERO",
+        "municipio": "SAN JUAN MAZATLAN",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.145868,
+          16.713734
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007275",
+        "nombre_de_la_unidad": "UM  01 BENITO JUAREZ (EL TREBOL)",
+        "nombre_comercial": "UM 01 BENITO JUAREZ (EL TREBOL)",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "BENITO JUAREZ (EL TREBOL)",
+        "municipio": "SAN MIGUEL CHIMALAPA",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.827837,
+          16.80828
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007280",
+        "nombre_de_la_unidad": "UM 07 ARROYO CHICHIHUA",
+        "nombre_comercial": "UM 07 ARROYO CHICHIHUA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "ARROYO CHICHIHUA",
+        "municipio": "SANTA MARIA CHIMALAPA",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.000168,
+          16.207888
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007292",
+        "nombre_de_la_unidad": "UM 05 SAN PABLO",
+        "nombre_comercial": "UM 05 SAN PABLO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SAN PABLO",
+        "municipio": "SAN MATEO DEL MAR",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.200491,
+          17.446012
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007304",
+        "nombre_de_la_unidad": "UM 08 BENITO JUAREZ",
+        "nombre_comercial": "UM 08 BENITO JUAREZ",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "BENITO JUAREZ",
+        "municipio": "SAN JUAN COTZOCON",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.606163,
+          16.529474
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007316",
+        "nombre_de_la_unidad": "UM 09 SANTO DOMINGO",
+        "nombre_comercial": "UM 09 SANTO DOMINGO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SANTO DOMINGO",
+        "municipio": "SANTIAGO NILTEPEC",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.724269,
+          15.967184
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007321",
+        "nombre_de_la_unidad": "UM 10  TAPANALA",
+        "nombre_comercial": "M 10 TAPANALA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "TAPANALA",
+        "municipio": "SAN PEDRO HUAMELULA",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.645,
+          15.799
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007473",
+        "nombre_de_la_unidad": "PFAM YERBA SANTA",
+        "nombre_comercial": "PFAM YERBA SANTA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "YERBA SANTA",
+        "municipio": "SANTO DOMINGO DE MORELOS",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5258,
+          16.6611
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB007485",
+        "nombre_de_la_unidad": "PFAM T-0 PIEDRA DEL TAMBOR",
+        "nombre_comercial": "PFAM T-0 PIEDRA DEL TAMBOR",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "PIEDRA DEL TAMBOR",
+        "municipio": "SANTIAGO AMOLTEPEC",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9117,
+          17.1756
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB008366",
+        "nombre_de_la_unidad": "UM 09 SAN JUAN METALTEPEC ",
+        "nombre_comercial": "UM 09 SAN JUAN METALTEPEC",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SAN JUAN METALTEPEC",
+        "municipio": "SANTIAGO ZACATEPEC",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.34,
+          15.939
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB008395",
+        "nombre_de_la_unidad": "PFAM T-0 EL PERDIZ ",
+        "nombre_comercial": "PFAM T-0 EL PERDIZ",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "EL PERDIZ",
+        "municipio": "SAN MATEO PIÑAS",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.636192,
+          15.880407
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB008400",
+        "nombre_de_la_unidad": "PFAM PIEDRA DEL SOL",
+        "nombre_comercial": "PFAM PIEDRA DEL SOL",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "PIEDRA DEL SOL",
+        "municipio": "SANTO DOMINGO DE MORELOS",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.52,
+          17.05
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB008424",
+        "nombre_de_la_unidad": "PFAM T-0 SAN PEDRO ACATLAN EL GRANDE",
+        "nombre_comercial": "PFAM T-0 SAN PEDRO ACATLAN EL GRANDE",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SAN PEDRO ACATLAN GRANDE",
+        "municipio": "SAN JUAN MAZATLAN",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1541418,
+          16.1402818
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB008436",
+        "nombre_de_la_unidad": "PFAM LAS DELICIAS",
+        "nombre_comercial": "PFAM LAS DELICIAS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LAS DELICIAS",
+        "municipio": "SANTA MARIA TEMAXCALTEPEC",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.0648,
+          17.0549
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB009293",
+        "nombre_de_la_unidad": "UM 05 TAMAZULÁPAM DEL ESPÍRITU SANTO",
+        "nombre_comercial": "UM 05 TAMAZULÁPAM DEL ESPÍRITU SANTO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "TAMAZULAPAM DEL ESPIRITU SANTO",
+        "municipio": "TAMAZULAPAM DEL ESPIRITU SANTO",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7282284,
+          17.0539635
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB009696",
+        "nombre_de_la_unidad": "COORDINACIÓN ESTATAL DE LOS SPS IMSS BIENESTAR OAXACA",
+        "nombre_comercial": "COORDINACIÓN ESTATAL DE LOS SPS IMSS BIENESTAR OAXACA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "OFICINAS ADMINISTRATIVAS",
+        "localidad": "OAXACA DE JUAREZ",
+        "municipio": "OAXACA DE JUAREZ",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "añadido"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1816635280882,
+          19.2528839070471
+        ]
+      },
+      "properties": {
+        "clues_imb": "PLIMB006354",
+        "nombre_de_la_unidad": "UNIDAD MÓVIL DE SALUD CS-012",
+        "nombre_comercial": "UNIDAD MÓVIL DE SALUD CS-012",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "RAFAEL J. GARCIA",
+        "municipio": "CHILCHOTLA",
+        "entidad": "PUEBLA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6723925764859,
+          19.7153152634466
+        ]
+      },
+      "properties": {
+        "clues_imb": "PLIMB007042",
+        "nombre_de_la_unidad": "CARAVANA ZAUTLA CS-032",
+        "nombre_comercial": "CARAVANA ZAUTLA CS-032",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SANTIAGO ZAUTLA",
+        "municipio": "ZAUTLA",
+        "entidad": "PUEBLA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1570893709602,
+          18.268078331787
+        ]
+      },
+      "properties": {
+        "clues_imb": "PLIMB007071",
+        "nombre_de_la_unidad": "UNIDAD MÓVIL CS - 034",
+        "nombre_comercial": "UNIDAD MÓVIL CS - 34",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "COXCATLAN",
+        "municipio": "COXCATLAN",
+        "entidad": "PUEBLA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.318777,
+          18.515738
+        ]
+      },
+      "properties": {
+        "clues_imb": "QRIMB002014",
+        "nombre_de_la_unidad": "COORDINACIÓN ESTATAL IMSS BIENESTAR QUINTANA ROO",
+        "nombre_comercial": "COORDINACIÓN ESTATAL IMSS BIENESTAR QUINTANA ROO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "OFICINAS ADMINISTRATIVAS",
+        "localidad": "CHETUMAL",
+        "municipio": "OTHON P. BLANCO",
+        "entidad": "QUINTANA ROO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.197127,
+          22.234119
+        ]
+      },
+      "properties": {
+        "clues_imb": "SPIMB000556",
+        "nombre_de_la_unidad": "UNIDAD MEDICA MOVIL CONTRERAS",
+        "nombre_comercial": "UNIDAD MEDICA MOVIL CONTRERAS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "CONTRERAS",
+        "municipio": "MEXQUITIC DE CARMONA",
+        "entidad": "SAN LUIS POTOSI",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.652921,
+          22.241785
+        ]
+      },
+      "properties": {
+        "clues_imb": "SPIMB002586",
+        "nombre_de_la_unidad": "BRIGADA MÉDICA MÓVIL LLANO DE LOS SALDAÑA",
+        "nombre_comercial": "BRIGADA MÉDICA MÓVIL LLANO DE LOS SALDAÑA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "ARMADILLO DE LOS INFANTE",
+        "municipio": "ARMADILLO DE LOS INFANTE",
+        "entidad": "SAN LUIS POTOSI",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.9420948,
+          21.5657453
+        ]
+      },
+      "properties": {
+        "clues_imb": "SPIMB002591",
+        "nombre_de_la_unidad": "UNIDAD MEDICA MOVIL PEMUCHO",
+        "nombre_comercial": "UNIDAD MEDICA MOVIL PEMUCHO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "CUATECHIC",
+        "municipio": "TANCANHUITZ",
+        "entidad": "SAN LUIS POTOSI",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.440656,
+          27.081678
+        ]
+      },
+      "properties": {
+        "clues_imb": "SRIMB002244",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL ALAMOS",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL ALAMOS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "NAVOJOA",
+        "municipio": "NAVOJOA",
+        "entidad": "SONORA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.440656,
+          27.081678
+        ]
+      },
+      "properties": {
+        "clues_imb": "SRIMB002256",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL CUCHUJAQUI",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL CUCHUJAQUI",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "NAVOJOA",
+        "municipio": "NAVOJOA",
+        "entidad": "SONORA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9753562,
+          29.0995381
+        ]
+      },
+      "properties": {
+        "clues_imb": "SRIMB002261",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL HERMOSILLO",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL HERMOSILLO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "HERMOSILLO",
+        "municipio": "HERMOSILLO",
+        "entidad": "SONORA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.939599,
+          27.487021
+        ]
+      },
+      "properties": {
+        "clues_imb": "SRIMB002273",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL CD. OBREGÓN 2",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL CD. OBREGÓN 2",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "CIUDAD OBREGON",
+        "municipio": "CAJEME",
+        "entidad": "SONORA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.440656,
+          27.081678
+        ]
+      },
+      "properties": {
+        "clues_imb": "SRIMB002285",
+        "nombre_de_la_unidad": "UNIDAD MÉDICA MÓVIL RIO MAYO",
+        "nombre_comercial": "UNIDAD MÉDICA MÓVIL RIO MAYO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "NAVOJOA",
+        "municipio": "NAVOJOA",
+        "entidad": "SONORA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9628796,
+          29.0870573
+        ]
+      },
+      "properties": {
+        "clues_imb": "SRIMB002862",
+        "nombre_de_la_unidad": "COORDINACIÓN ESTATAL DE LOS SERVICIOS DE SALUD IMSS-BIENESTAR EN SONORA",
+        "nombre_comercial": "COORDINACIÓN ESTATAL DE LOS SERVICIOS DE SALUD IMSS-BIENESTAR EN SONORA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "OFICINAS ADMINISTRATIVAS",
+        "localidad": "HERMOSILLO",
+        "municipio": "HERMOSILLO",
+        "entidad": "SONORA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "añadido"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.1010959,
+          29.0607645
+        ]
+      },
+      "properties": {
+        "clues_imb": "SRIMB002874",
+        "nombre_de_la_unidad": "ALMACEN ESTATAL DE LOS SERVICIOS DE SALUD IMSS-BIENESTAR EN SONORA",
+        "nombre_comercial": "ALMACEN ESTATAL DE LOS SERVICIOS DE SALUD IMSS-BIENESTAR EN SONORA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "ALMACENES",
+        "localidad": "HERMOSILLO",
+        "municipio": "HERMOSILLO",
+        "entidad": "SONORA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "añadido"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9585155,
+          29.068045
+        ]
+      },
+      "properties": {
+        "clues_imb": "SRIMB002886",
+        "nombre_de_la_unidad": "COORDINACIÓN ESTATAL DE LOS SERVICIOS DE SALUD IMSS-BIENESTAR EN SONORA",
+        "nombre_comercial": "COORDINACIÓN ESTATAL DE LOS SERVICIOS DE SALUD IMSS-BIENESTAR EN SONORA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "OFICINAS ADMINISTRATIVAS",
+        "localidad": "HERMOSILLO",
+        "municipio": "HERMOSILLO",
+        "entidad": "SONORA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "añadido"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.9402588773052,
+          19.3072009649488
+        ]
+      },
+      "properties": {
+        "clues_imb": "TLIMB001856",
+        "nombre_de_la_unidad": "UNIDAD MEDICA MOVIL HUAMANTLA III",
+        "nombre_comercial": "UNIDAD MEDICA MOVIL HUAMANTLA III",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "HUAMANTLA",
+        "municipio": "HUAMANTLA",
+        "entidad": "TLAXCALA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.1506425288989,
+          19.409759012573
+        ]
+      },
+      "properties": {
+        "clues_imb": "TLIMB001861",
+        "nombre_de_la_unidad": "UNIDAD MEDICA MOVIL APIZACO III",
+        "nombre_comercial": "UNIDAD MEDICA MOVIL APIZACO III",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "CIUDAD DE APIZACO",
+        "municipio": "APIZACO",
+        "entidad": "TLAXCALA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.9402588773052,
+          19.3072009649488
+        ]
+      },
+      "properties": {
+        "clues_imb": "TLIMB001873",
+        "nombre_de_la_unidad": "UNIDAD MEDICA MOVIL HUAMANTLA IV",
+        "nombre_comercial": "UNIDAD MEDICA MOVIL HUAMANTLA IV",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "HUAMANTLA",
+        "municipio": "HUAMANTLA",
+        "entidad": "TLAXCALA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.241689393294,
+          19.3085049645068
+        ]
+      },
+      "properties": {
+        "clues_imb": "TLIMB001885",
+        "nombre_de_la_unidad": "UNIDAD MEDICA MOVIL TLAXCALA II",
+        "nombre_comercial": "UNIDAD MEDICA MOVIL TLAXCALA II",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "TLAXCALA DE XICOHTENCATL",
+        "municipio": "TLAXCALA",
+        "entidad": "TLAXCALA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.240538,
+          19.309254
+        ]
+      },
+      "properties": {
+        "clues_imb": "TLIMB002194",
+        "nombre_de_la_unidad": "SERVICIOS DE SALUD IMSS BIENESTAR TLAXCALA",
+        "nombre_comercial": "SERVICIOS DE SALUD IMSS BIENESTAR TLAXCALA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "OFICINAS ADMINISTRATIVAS",
+        "localidad": "TLAXCALA DE XICOHTENCATL",
+        "municipio": "TLAXCALA",
+        "entidad": "TLAXCALA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "añadido"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.703644,
+          23.005233
+        ]
+      },
+      "properties": {
+        "clues_imb": "TSIMB002445",
+        "nombre_de_la_unidad": "UMM FAM TULA DOS",
+        "nombre_comercial": "UMM FAM TULA DOS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "CIUDAD TULA",
+        "municipio": "TULA",
+        "entidad": "TAMAULIPAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.148806,
+          23.720206
+        ]
+      },
+      "properties": {
+        "clues_imb": "TSIMB002450",
+        "nombre_de_la_unidad": "UMM FAM VICTORIA SEIS",
+        "nombre_comercial": "UMM FAM VICTORIA SEIS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "CIUDAD VICTORIA",
+        "municipio": "VICTORIA",
+        "entidad": "TAMAULIPAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.080186,
+          22.920315
+        ]
+      },
+      "properties": {
+        "clues_imb": "TSIMB002462",
+        "nombre_de_la_unidad": "UMM FAM ALDAMA DOCE",
+        "nombre_comercial": "UMM FAM ALDAMA DOCE",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "ALDAMA",
+        "municipio": "ALDAMA",
+        "entidad": "TAMAULIPAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.758153,
+          23.435159
+        ]
+      },
+      "properties": {
+        "clues_imb": "TSIMB002474",
+        "nombre_de_la_unidad": "UMM FAM BUSTAMANTE CUATRO",
+        "nombre_comercial": "UMM FAM BUSTAMANTE CUATRO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "BUSTAMANTE",
+        "municipio": "BUSTAMANTE",
+        "entidad": "TAMAULIPAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.808938,
+          24.949766
+        ]
+      },
+      "properties": {
+        "clues_imb": "TSIMB002486",
+        "nombre_de_la_unidad": "UMM FAM BURGOS TRECE",
+        "nombre_comercial": "UMM FAM BURGOS TRECE",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "BURGOS",
+        "municipio": "BURGOS",
+        "entidad": "TAMAULIPAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.437384,
+          22.832018
+        ]
+      },
+      "properties": {
+        "clues_imb": "TSIMB002853",
+        "nombre_de_la_unidad": "UMM FAM GONZÁLEZ ONCE",
+        "nombre_comercial": "UMM FAM GONZÁLEZ ONCE",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "GONZALEZ",
+        "municipio": "GONZALEZ",
+        "entidad": "TAMAULIPAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.152237,
+          23.735256
+        ]
+      },
+      "properties": {
+        "clues_imb": "TSIMB003570",
+        "nombre_de_la_unidad": "UM UNIDAD MÓVIL CAM-1",
+        "nombre_comercial": "UM UNIDAD MÓVIL CAM-1",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "CIUDAD VICTORIA",
+        "municipio": "VICTORIA",
+        "entidad": "TAMAULIPAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.544503,
+          25.762121
+        ]
+      },
+      "properties": {
+        "clues_imb": "TSIMB003751",
+        "nombre_de_la_unidad": "UMM FAM MATAMOROS CATORCE",
+        "nombre_comercial": "UMM FAM MATAMOROS CATORCE",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "HEROICA MATAMOROS",
+        "municipio": "MATAMOROS",
+        "entidad": "TAMAULIPAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.593464,
+          19.880887
+        ]
+      },
+      "properties": {
+        "clues_imb": "VZIMB007201",
+        "nombre_de_la_unidad": "UMM TIPO 0 JUAN MARTÍN",
+        "nombre_comercial": "UMM TIPO 0 JUAN MARTÍN",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "JUAN MARTIN",
+        "municipio": "VEGA DE ALATORRE",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1434583,
+          18.9596576
+        ]
+      },
+      "properties": {
+        "clues_imb": "VZIMB007213",
+        "nombre_de_la_unidad": "UMM TIPO 0 EL ZAPOTE",
+        "nombre_comercial": "UMM TIPO 0 EL ZAPOTE",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "EL ZAPOTE",
+        "municipio": "LA PERLA",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.632937,
+          19.834032
+        ]
+      },
+      "properties": {
+        "clues_imb": "VZIMB007225",
+        "nombre_de_la_unidad": "UMM TIPO 0 EL ZAPOTAL",
+        "nombre_comercial": "UMM TIPO 0 EL ZAPOTAL",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "EL ZAPOTAL",
+        "municipio": "JUCHIQUE DE FERRER",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.099242,
+          19.573632
+        ]
+      },
+      "properties": {
+        "clues_imb": "VZIMB007230",
+        "nombre_de_la_unidad": "UMM TIPO 0 EL PAISANO",
+        "nombre_comercial": "UMM TIPO 0 EL PAISANO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "EL PAISANO",
+        "municipio": "LAS VIGAS DE RAMIREZ",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.505883,
+          21.312548
+        ]
+      },
+      "properties": {
+        "clues_imb": "VZIMB007242",
+        "nombre_de_la_unidad": "UMM TIPO 0 EL MIRADOR",
+        "nombre_comercial": "UMM TIPO 0 EL MIRADOR",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "EL MIRADOR",
+        "municipio": "CHICONAMEL",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.438492,
+          20.750431
+        ]
+      },
+      "properties": {
+        "clues_imb": "VZIMB007254",
+        "nombre_de_la_unidad": "UMM TIPO 0 TENEXCO",
+        "nombre_comercial": "UMM TIPO 0 TENEXCO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "TENEXCO",
+        "municipio": "ILAMATLAN",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.89081,
+          18.33957
+        ]
+      },
+      "properties": {
+        "clues_imb": "VZIMB007266",
+        "nombre_de_la_unidad": "UMM TIPO 0 SANTA MARTHA",
+        "nombre_comercial": "UMM TIPO 0 SANTA MARTHA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SANTA MARTHA",
+        "municipio": "SOTEAPAN",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2096564,
+          19.7729012
+        ]
+      },
+      "properties": {
+        "clues_imb": "VZIMB007271",
+        "nombre_de_la_unidad": "UMM TIPO 0 SAN FELIPE",
+        "nombre_comercial": "UMM TIPO 0 SAN FELIPE",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SAN FELIPE",
+        "municipio": "ALTOTONGA",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.7324676,
+          18.3574112
+        ]
+      },
+      "properties": {
+        "clues_imb": "VZIMB007283",
+        "nombre_de_la_unidad": "UMM TIPO 0 PILAPILLO",
+        "nombre_comercial": "UMM TIPO 0 PILAPILLO",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "PILAPILLO",
+        "municipio": "TATAHUICAPAN DE JUAREZ",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.99783,
+          17.52172
+        ]
+      },
+      "properties": {
+        "clues_imb": "VZIMB007295",
+        "nombre_de_la_unidad": "UMM TIPO 0 NUEVA TABASQUEÑA",
+        "nombre_comercial": "UMM TIPO 0 NUEVA TABASQUEÑA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "NUEVA TABASQUEÑA",
+        "municipio": "LAS CHOAPAS",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.07463,
+          21.619075
+        ]
+      },
+      "properties": {
+        "clues_imb": "VZIMB007300",
+        "nombre_de_la_unidad": "UMM TIPO 0 ALTO MINCUINI",
+        "nombre_comercial": "UMM TIPO 0 ALTO MINCUINI",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "ALTO MINCUINI",
+        "municipio": "TANTOYUCA",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.287055,
+          18.738808
+        ]
+      },
+      "properties": {
+        "clues_imb": "VZIMB007312",
+        "nombre_de_la_unidad": "UMM TIPO 0 LINDA VISTA",
+        "nombre_comercial": "UMM TIPO 0 LINDA VISTA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LINDA VISTA",
+        "municipio": "ACULTZINGO",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.198065,
+          20.595741
+        ]
+      },
+      "properties": {
+        "clues_imb": "VZIMB007324",
+        "nombre_de_la_unidad": "UMM TIPO 0 LANDERO Y COSS",
+        "nombre_comercial": "UMM TIPO 0 LANDERO Y COSS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LANDERO Y COSS",
+        "municipio": "TLACHICHILCO",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.342445,
+          20.489218
+        ]
+      },
+      "properties": {
+        "clues_imb": "VZIMB007336",
+        "nombre_de_la_unidad": "UMM TIPO 0 EL DEMANTZA",
+        "nombre_comercial": "UMM TIPO 0 EL DEMANTZA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "EL DEMANTZA",
+        "municipio": "ZACUALPAN",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1836495,
+          18.6625684
+        ]
+      },
+      "properties": {
+        "clues_imb": "VZIMB007341",
+        "nombre_de_la_unidad": "UMM TIPO 0 TEPAXAPA",
+        "nombre_comercial": "UMM TIPO 0 TEPAXAPA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "TEPAXAPA",
+        "municipio": "SOLEDAD ATZOMPA",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8969857,
+          19.5308981
+        ]
+      },
+      "properties": {
+        "clues_imb": "VZIMB008951",
+        "nombre_de_la_unidad": "COORDINACIÓN ESTATAL IMSS-BIENESTAR VERACRUZ",
+        "nombre_comercial": "COORDINACIÓN ESTATAL IMSS-BIENESTAR VERACRUZ",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "OFICINAS ADMINISTRATIVAS",
+        "localidad": "XALAPA-ENRIQUEZ",
+        "municipio": "XALAPA",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "añadido"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.102909,
+          23.837944
+        ]
+      },
+      "properties": {
+        "clues_imb": "ZSIMB002551",
+        "nombre_de_la_unidad": "CARAVANA DE LA SALUD TIPO 0 CERVANTES",
+        "nombre_comercial": "CARAVANA DE LA SALUD TIPO 0 CERVANTES",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "FELIPE CARRILLO PUERTO (CARRILLO)",
+        "municipio": "VILLA DE COS",
+        "entidad": "ZACATECAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.953162,
+          22.288733
+        ]
+      },
+      "properties": {
+        "clues_imb": "ZSIMB002563",
+        "nombre_de_la_unidad": "CARAVANA DE LA SALUD TIPO 0 SAN MARCOS",
+        "nombre_comercial": "CARAVANA DE LA SALUD TIPO 0 SAN MARCOS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LA LUZ",
+        "municipio": "LORETO",
+        "entidad": "ZACATECAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.431976,
+          22.357063
+        ]
+      },
+      "properties": {
+        "clues_imb": "ZSIMB002575",
+        "nombre_de_la_unidad": "CARAVANA DE LA SALUD TIPO 0 GÓMEZ",
+        "nombre_comercial": "CARAVANA DE LA SALUD TIPO 0 GÓMEZ",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "GOMEZ",
+        "municipio": "MONTE ESCOBEDO",
+        "entidad": "ZACATECAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.624722,
+          22.301667
+        ]
+      },
+      "properties": {
+        "clues_imb": "ZSIMB002580",
+        "nombre_de_la_unidad": "CARAVANA DE LA SALUD TIPO 0 GUADALUPE LOS POZOS",
+        "nombre_comercial": "CARAVANA DE LA SALUD TIPO 0 GUADALUPE LOS POZOS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "EL CHIQUIHUITILLO",
+        "municipio": "PINOS",
+        "entidad": "ZACATECAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.8075,
+          22.527768
+        ]
+      },
+      "properties": {
+        "clues_imb": "ZSIMB002592",
+        "nombre_de_la_unidad": "CARAVANA DE LA SALUD TIPO 0 SAN PEDRO DE LA SIERRA",
+        "nombre_comercial": "CARAVANA DE LA SALUD TIPO 0 SAN PEDRO DE LA SIERRA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "SANTA ROSA DE LIMA",
+        "municipio": "VALPARAISO",
+        "entidad": "ZACATECAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.459266,
+          22.976968
+        ]
+      },
+      "properties": {
+        "clues_imb": "ZSIMB002604",
+        "nombre_de_la_unidad": "CARAVANA DE LA SALUD TIPO 0 PEÑITAS DE SAN MATEO(PEÑITAS)",
+        "nombre_comercial": "CARAVANA DE LA SALUD TIPO 0 PEÑITAS DE SAN MATEO(PEÑITAS)",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "PEÑITAS DE SAN MATEO (PEÑITAS)",
+        "municipio": "VALPARAISO",
+        "entidad": "ZACATECAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.905021,
+          23.971582
+        ]
+      },
+      "properties": {
+        "clues_imb": "ZSIMB002616",
+        "nombre_de_la_unidad": "CARAVANA DE LA SALUD TIPO 0 ORAN",
+        "nombre_comercial": "CARAVANA DE LA SALUD TIPO 0 ORAN",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "ORAN",
+        "municipio": "GENERAL FRANCISCO R. MURGUIA",
+        "entidad": "ZACATECAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.096943,
+          24.033054
+        ]
+      },
+      "properties": {
+        "clues_imb": "ZSIMB002621",
+        "nombre_de_la_unidad": "CARAVANA DE LA SALUD TIPO 0 CIENEGUILLA (NORIA Y CIENEGUILLA)",
+        "nombre_comercial": "CARAVANA DE LA SALUD TIPO 0 CIENEGUILLA (NORIA Y CIENEGUILLA)",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "CIENEGUILLA (NORIA Y CIENEGUILLA)",
+        "municipio": "GENERAL FRANCISCO R. MURGUIA",
+        "entidad": "ZACATECAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.325157,
+          21.622807
+        ]
+      },
+      "properties": {
+        "clues_imb": "ZSIMB002633",
+        "nombre_de_la_unidad": "CARAVANA DE LA SALUD TIPO 0 LA VILLITA",
+        "nombre_comercial": "CARAVANA DE LA SALUD TIPO 0 LA VILLITA",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "UNIDAD MÓVIL",
+        "localidad": "LA VILLITA",
+        "municipio": "TEPECHITLAN",
+        "entidad": "ZACATECAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.5355186,
+          22.7675829
+        ]
+      },
+      "properties": {
+        "clues_imb": "ZSIMB002645",
+        "nombre_de_la_unidad": "SERVICIOS DE SALUD DEL INSTITUTO MEXICANO DEL SEGURO SOCIAL PARA EL BIENESTAR (IMSS-BIENESTAR) ZACATECAS",
+        "nombre_comercial": "SERVICIOS DE SALUD DEL INSTITUTO MEXICANO DEL SEGURO SOCIAL PARA EL BIENESTAR (IMSS-BIENESTAR) ZACATECAS",
+        "nivel_atencion": "NO APLICA",
+        "color": "#6B7280",
+        "nombre_de_tipologia": "OFICINAS ADMINISTRATIVAS",
+        "localidad": "GUADALUPE",
+        "municipio": "GUADALUPE",
+        "entidad": "ZACATECAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "añadido"
+      }
+    }
+  ]
+}

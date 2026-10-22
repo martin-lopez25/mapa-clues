@@ -1,0 +1,275 @@
+@import "@fontsource/cormorant-garamond/latin-600.css";
+@import "@fontsource/cormorant-garamond/latin-ext-600.css";
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Cormorant Garamond', serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-body);
+    background-color: #081715;
+    color: #e2e8f0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: 0;
+  }
+}
+
+/* MapLibre & Leaflet 3D Controls & Canvas */
+.maplibregl-canvas {
+  outline: none;
+}
+
+.maplibregl-popup-content {
+  background: rgba(11, 29, 26, 0.95) !important;
+  border: 1px solid rgba(52, 211, 153, 0.25) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.7), 0 0 25px rgba(52, 211, 153, 0.08) !important;
+  padding: 14px 16px !important;
+  color: #f1f5f9 !important;
+  backdrop-filter: blur(12px) !important;
+}
+
+.maplibregl-popup-tip {
+  border-top-color: rgba(11, 29, 26, 0.95) !important;
+}
+
+.maplibregl-popup-close-button {
+  color: #94a3b8 !important;
+  padding: 6px 8px !important;
+  font-size: 16px !important;
+}
+
+.maplibregl-popup-close-button:hover {
+  color: #f1f5f9 !important;
+  background: transparent !important;
+}
+
+/* User GPS 3D Beacon */
+.user-beacon-3d {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-beacon-pulse {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1.5px solid #34d399;
+  background: rgba(52, 211, 153, 0.15);
+  animation: beacon-radar 2.4s cubic-bezier(0.2, 0.8, 0.2, 1) infinite;
+}
+
+.user-beacon-core {
+  width: 14px;
+  height: 14px;
+  background: #34d399;
+  border: 2.5px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 16px rgba(52, 211, 153, 0.8), 0 2px 6px rgba(0,0,0,0.5);
+  position: relative;
+  z-index: 2;
+}
+
+@keyframes beacon-radar {
+  0% {
+    transform: scale(0.3);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+.selected-unit-marker {
+  position: relative;
+  display: grid;
+  width: 46px;
+  height: 56px;
+  place-items: start center;
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+.selected-unit-marker__pulse {
+  position: absolute;
+  top: 1px;
+  width: 42px;
+  height: 42px;
+  border: 1px solid var(--selected-marker-color);
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--selected-marker-color) 12%, transparent);
+  box-shadow: 0 0 18px color-mix(in srgb, var(--selected-marker-color) 65%, transparent);
+  animation: selected-marker-pulse 1.8s ease-out infinite;
+}
+
+.selected-unit-marker__pin {
+  position: relative;
+  display: grid;
+  width: 32px;
+  height: 32px;
+  margin-top: 6px;
+  place-items: center;
+  border: 2px solid var(--selected-marker-color);
+  border-radius: 11px;
+  background: #08111f;
+  color: #ffffff;
+  box-shadow: 0 0 16px color-mix(in srgb, var(--selected-marker-color) 70%, transparent);
+}
+
+.selected-unit-marker__pin svg {
+  width: 17px;
+  height: 17px;
+}
+
+@keyframes selected-marker-pulse {
+  0% { transform: scale(0.55); opacity: 0.85; }
+  100% { transform: scale(1.45); opacity: 0; }
+}
+
+.unit-map-popup-container .maplibregl-popup-content {
+  padding: 0 !important;
+  border: 1px solid rgba(56, 217, 255, 0.45) !important;
+  border-radius: 8px !important;
+  background: rgba(4, 12, 24, 0.97) !important;
+  color: #f8fafc !important;
+  box-shadow: 0 0 28px rgba(56, 217, 255, 0.18) !important;
+}
+
+.unit-map-popup {
+  display: grid;
+  min-width: 220px;
+  gap: 7px;
+  padding: 12px;
+  font-family: inherit;
+}
+
+.unit-map-popup__level {
+  color: #38d9ff;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.unit-map-popup__name {
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.unit-map-popup__clues {
+  color: #cbd5e1;
+  font-family: monospace;
+  font-size: 11px;
+}
+
+.unit-map-popup__action {
+  margin-top: 2px;
+  padding: 7px 9px;
+  border: 1px solid rgba(56, 217, 255, 0.4);
+  border-radius: 5px;
+  background: rgba(56, 217, 255, 0.1);
+  color: #8beaff;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+/* Modern Leaflet Popup & Marker Enhancements */
+.leaflet-popup-content-wrapper {
+  border-radius: 18px;
+  box-shadow: 0 20px 35px -10px rgba(15, 23, 42, 0.15), 0 0 1px 1px rgba(15, 23, 42, 0.05);
+  padding: 0;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.98);
+}
+
+.leaflet-popup-content {
+  margin: 14px 16px;
+  line-height: 1.45;
+}
+
+.leaflet-popup-tip {
+  background: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* User Location GPS Radar Pulse Marker */
+.user-location-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.user-pulse-ring {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(14, 165, 233, 0.25);
+  animation: pulse-ring 2.2s cubic-bezier(0.2, 0.8, 0.2, 1) infinite;
+}
+
+.user-dot {
+  width: 18px;
+  height: 18px;
+  background: linear-gradient(135deg, #0284c7, #0369a1);
+  border: 3.5px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.4);
+  position: relative;
+  z-index: 2;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.4);
+    opacity: 0.95;
+  }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+/* Modern Vector Pin Markers */
+.medical-unit-marker {
+  transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transform-origin: bottom center;
+}
+
+.medical-unit-marker:hover {
+  transform: scale(1.2) translateY(-6px);
+  filter: drop-shadow(0 12px 20px rgba(0, 0, 0, 0.2));
+  z-index: 99999 !important;
+}
+
+/* Clean Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6d3d1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a29e;
+}

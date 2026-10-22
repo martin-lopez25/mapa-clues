@@ -1,0 +1,6 @@
+{
+  "name": "Buscador Geográfico de Unidades Médicas",
+  "description": "Buscador institucional interactivo de unidades médicas de México por CLUES, nombre, dirección y ubicación GPS más cercana con mapa OpenStreetMap.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

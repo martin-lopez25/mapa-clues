@@ -1,0 +1,1756 @@
+{
+  "type": "FeatureCollection",
+  "name": "tercer_nivel",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.318479743591,
+          24.112949708838
+        ]
+      },
+      "properties": {
+        "clues_imb": "BSIMB000672",
+        "nombre_de_la_unidad": "B. HOSPITAL GENERAL CON ESPECIALIDADES JUAN MARÍA DE SALVATIERRA",
+        "nombre_comercial": "B. HOSPITAL GENERAL CON ESPECIALIDADES JUAN MARÍA DE SALVATIERRA",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL GENERAL",
+        "localidad": "LA PAZ",
+        "municipio": "LA PAZ",
+        "entidad": "BAJA CALIFORNIA SUR",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.523917,
+          19.815162
+        ]
+      },
+      "properties": {
+        "clues_imb": "CCIMB001526",
+        "nombre_de_la_unidad": "HOSPITAL GENERAL DE ESPECIALIDADES DR. JAVIER BUENFIL OSORIO",
+        "nombre_comercial": "HOSPITAL GENERAL DE ESPECIALIDADES DR. JAVIER BUENFIL OSORIO",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "SAN FRANCISCO DE CAMPECHE",
+        "municipio": "CAMPECHE",
+        "entidad": "CAMPECHE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.68984,
+          19.258166
+        ]
+      },
+      "properties": {
+        "clues_imb": "CMIMB000103",
+        "nombre_de_la_unidad": "HOSPITAL REGIONAL UNIVERSITARIO",
+        "nombre_comercial": "HOSPITAL REGIONAL UNIVERSITARIO",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL GENERAL",
+        "localidad": "COLIMA",
+        "municipio": "COLIMA",
+        "entidad": "COLIMA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.7518409,
+          19.2782366
+        ]
+      },
+      "properties": {
+        "clues_imb": "CMIMB001153",
+        "nombre_de_la_unidad": "HOSPITAL MATERNO INFANTIL",
+        "nombre_comercial": "HOSPITAL MATERNO INFANTIL",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "CIUDAD DE VILLA DE ALVAREZ",
+        "municipio": "VILLA DE ALVAREZ",
+        "entidad": "COLIMA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.726383,
+          19.221244
+        ]
+      },
+      "properties": {
+        "clues_imb": "CMIMB001445",
+        "nombre_de_la_unidad": "INSTITUTO ESTATAL DE CANCEROLOGÍA LIC. CARLOS DE LA MADRID VIRGEN",
+        "nombre_comercial": "INSTITUTO ESTATAL DE CANCEROLOGÍA LIC. CARLOS DE LA MADRID VIRGEN",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "COLIMA",
+        "municipio": "COLIMA",
+        "entidad": "COLIMA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.345595,
+          14.809311
+        ]
+      },
+      "properties": {
+        "clues_imb": "CSIMB003506",
+        "nombre_de_la_unidad": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD CIUDAD SALUD",
+        "nombre_comercial": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD CIUDAD SALUD",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "TAPACHULA DE CORDOVA Y ORDOÑEZ",
+        "municipio": "TAPACHULA",
+        "entidad": "HRAES",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.078108,
+          16.75102
+        ]
+      },
+      "properties": {
+        "clues_imb": "CSIMB003511",
+        "nombre_de_la_unidad": "HOSPITAL DE ESPECIALIDADES PEDIÁTRICAS",
+        "nombre_comercial": "HOSPITAL DE ESPECIALIDADES PEDIÁTRICAS",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "TUXTLA GUTIERREZ",
+        "municipio": "TUXTLA GUTIERREZ",
+        "entidad": "HRAES",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.0727995,
+          16.7484597
+        ]
+      },
+      "properties": {
+        "clues_imb": "CSIMB006533",
+        "nombre_de_la_unidad": "HOSPITAL CHIAPAS NOS UNE DR. JESUS GILBERTO GOMEZ MAZA",
+        "nombre_comercial": "HOSPITAL CHIAPAS NOS UNE DR. JESUS GILBERTO GOMEZ MAZA",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL GENERAL",
+        "localidad": "TUXTLA GUTIERREZ",
+        "municipio": "TUXTLA GUTIERREZ",
+        "entidad": "CHIAPAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.18541797,
+          19.4845874268545
+        ]
+      },
+      "properties": {
+        "clues_imb": "DFIMB000026",
+        "nombre_de_la_unidad": "HOSPITAL PEDIÁTRICO AZCAPOTZALCO",
+        "nombre_comercial": "HOSPITAL PEDIÁTRICO AZCAPOTZALCO",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "AZCAPOTZALCO",
+        "municipio": "AZCAPOTZALCO",
+        "entidad": "CIUDAD DE MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.168073,
+          19.346021
+        ]
+      },
+      "properties": {
+        "clues_imb": "DFIMB000183",
+        "nombre_de_la_unidad": "HOSPITAL PEDIÁTRICO COYOACÁN",
+        "nombre_comercial": "HOSPITAL PEDIÁTRICO COYOACÁN",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "COYOACAN",
+        "municipio": "COYOACAN",
+        "entidad": "CIUDAD DE MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.0924301727675,
+          19.4580374222633
+        ]
+      },
+      "properties": {
+        "clues_imb": "DFIMB000410",
+        "nombre_de_la_unidad": "HOSPITAL PEDIÁTRICO SAN JUAN DE ARAGÓN",
+        "nombre_comercial": "HOSPITAL PEDIÁTRICO SAN JUAN DE ARAGÓN",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "GUSTAVO A. MADERO",
+        "municipio": "GUSTAVO A. MADERO",
+        "entidad": "CIUDAD DE MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1140060328278,
+          19.4871259675012
+        ]
+      },
+      "properties": {
+        "clues_imb": "DFIMB000422",
+        "nombre_de_la_unidad": "HOSPITAL PEDIÁTRICO VILLA",
+        "nombre_comercial": "HOSPITAL PEDIÁTRICO VILLA",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "GUSTAVO A. MADERO",
+        "municipio": "GUSTAVO A. MADERO",
+        "entidad": "CIUDAD DE MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1176,
+          19.40289
+        ]
+      },
+      "properties": {
+        "clues_imb": "DFIMB000760",
+        "nombre_de_la_unidad": "HOSPITAL PEDIÁTRICO IZTACALCO",
+        "nombre_comercial": "HOSPITAL PEDIÁTRICO IZTACALCO",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "IZTACALCO",
+        "municipio": "IZTACALCO",
+        "entidad": "CIUDAD DE MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1625085389827,
+          19.3601785515288
+        ]
+      },
+      "properties": {
+        "clues_imb": "DFIMB001822",
+        "nombre_de_la_unidad": "HOSPITAL GENERAL XOCO",
+        "nombre_comercial": "HOSPITAL GENERAL XOCO",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL GENERAL",
+        "localidad": "BENITO JUAREZ",
+        "municipio": "BENITO JUAREZ",
+        "entidad": "CIUDAD DE MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1412381670412,
+          19.459885494975
+        ]
+      },
+      "properties": {
+        "clues_imb": "DFIMB001921",
+        "nombre_de_la_unidad": "HOSPITAL PEDIÁTRICO PERALVILLO",
+        "nombre_comercial": "HOSPITAL PEDIÁTRICO PERALVILLO",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "CUAUHTEMOC",
+        "municipio": "CUAUHTEMOC",
+        "entidad": "CIUDAD DE MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1908386259787,
+          19.4027278546305
+        ]
+      },
+      "properties": {
+        "clues_imb": "DFIMB002003",
+        "nombre_de_la_unidad": "HOSPITAL PEDIÁTRICO TACUBAYA",
+        "nombre_comercial": "HOSPITAL PEDIÁTRICO TACUBAYA",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "MIGUEL HIDALGO",
+        "municipio": "MIGUEL HIDALGO",
+        "entidad": "CIUDAD DE MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2031524394183,
+          19.4510395236854
+        ]
+      },
+      "properties": {
+        "clues_imb": "DFIMB002015",
+        "nombre_de_la_unidad": "HOSPITAL PEDIÁTRICO LEGARIA",
+        "nombre_comercial": "HOSPITAL PEDIÁTRICO LEGARIA",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "MIGUEL HIDALGO",
+        "municipio": "MIGUEL HIDALGO",
+        "entidad": "CIUDAD DE MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.11317,
+          19.45246
+        ]
+      },
+      "properties": {
+        "clues_imb": "DFIMB002090",
+        "nombre_de_la_unidad": "HOSPITAL MATERNO INFANTIL INGUARÁN",
+        "nombre_comercial": "HOSPITAL MATERNO INFANTIL INGUARÁN",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "VENUSTIANO CARRANZA",
+        "municipio": "VENUSTIANO CARRANZA",
+        "entidad": "CIUDAD DE MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.09808,
+          19.43296
+        ]
+      },
+      "properties": {
+        "clues_imb": "DFIMB002102",
+        "nombre_de_la_unidad": "HOSPITAL PEDIÁTRICO MOCTEZUMA",
+        "nombre_comercial": "HOSPITAL PEDIÁTRICO MOCTEZUMA",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "VENUSTIANO CARRANZA",
+        "municipio": "VENUSTIANO CARRANZA",
+        "entidad": "CIUDAD DE MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.0660984,
+          19.3066411
+        ]
+      },
+      "properties": {
+        "clues_imb": "DFIMB002266",
+        "nombre_de_la_unidad": "HOSPITAL DE ESPECIALIDADES DE LA CIUDAD DE MEXICO DR. BELISARIO DOMÍNGUEZ",
+        "nombre_comercial": "HOSPITAL DE ESPECIALIDADES DE LA CIUDAD DE MEXICO DR. BELISARIO DOMÍNGUEZ",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "IZTAPALAPA",
+        "municipio": "IZTAPALAPA",
+        "entidad": "CIUDAD DE MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.520921,
+          17.605384
+        ]
+      },
+      "properties": {
+        "clues_imb": "GRIMB008931",
+        "nombre_de_la_unidad": "HOSPITAL GENERAL DR. RAYMUNDO ABARCA ALARCÓN",
+        "nombre_comercial": "HOSPITAL GENERAL DE CHILPANCINGO",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL GENERAL",
+        "localidad": "CHILPANCINGO DE LOS BRAVO",
+        "municipio": "CHILPANCINGO DE LOS BRAVO",
+        "entidad": "GUERRERO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.886492,
+          16.873589
+        ]
+      },
+      "properties": {
+        "clues_imb": "GRIMB009742",
+        "nombre_de_la_unidad": "INSTITUTO ESTATAL DE CANCEROLOGÍA DR ARTURO BELTRÁN ORTEGA ",
+        "nombre_comercial": "INSTITUTO ESTATAL DE CANCEROLOGÍA DR ARTURO BELTRÁN ORTEGA ",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "ACAPULCO DE JUAREZ",
+        "municipio": "ACAPULCO DE JUAREZ",
+        "entidad": "GUERRERO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.5767015,
+          21.0613651
+        ]
+      },
+      "properties": {
+        "clues_imb": "GTIMB000015",
+        "nombre_de_la_unidad": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DEL BAJÍO",
+        "nombre_comercial": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DEL BAJÍO",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "LEON DE LOS ALDAMA",
+        "municipio": "LEON",
+        "entidad": "HRAES",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.722855,
+          20.11376
+        ]
+      },
+      "properties": {
+        "clues_imb": "HGIMB002304",
+        "nombre_de_la_unidad": "HOSPITAL GENERAL PACHUCA",
+        "nombre_comercial": "HOSPITAL GENERAL PACHUCA",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL GENERAL",
+        "localidad": "PACHUCA DE SOTO",
+        "municipio": "PACHUCA DE SOTO",
+        "entidad": "HIDALGO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.0382,
+          19.5144
+        ]
+      },
+      "properties": {
+        "clues_imb": "MCIMB002005",
+        "nombre_de_la_unidad": "H.G. DR. JOSÉ MARÍA RODRÍGUEZ",
+        "nombre_comercial": "H.G. DR. JOSÉ MARÍA RODRÍGUEZ",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL GENERAL",
+        "localidad": "ECATEPEC DE MORELOS",
+        "municipio": "ECATEPEC DE MORELOS",
+        "entidad": "MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.636675,
+          19.316095
+        ]
+      },
+      "properties": {
+        "clues_imb": "MCIMB006946",
+        "nombre_de_la_unidad": "H.G. DR. NICOLÁS SAN JUAN",
+        "nombre_comercial": "H.G. DR. NICOLÁS SAN JUAN",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL GENERAL",
+        "localidad": "TOLUCA DE LERDO",
+        "municipio": "TOLUCA",
+        "entidad": "MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.656937,
+          19.27244
+        ]
+      },
+      "properties": {
+        "clues_imb": "MCIMB006951",
+        "nombre_de_la_unidad": "HOSPITAL MATERNO PERINATAL MÓNICA PRETELINI SÁENZ",
+        "nombre_comercial": "HOSPITAL MATERNO PERINATAL MÓNICA PRETELINI SÁENZ",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "TOLUCA DE LERDO",
+        "municipio": "TOLUCA",
+        "entidad": "MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.633094,
+          19.3196
+        ]
+      },
+      "properties": {
+        "clues_imb": "MCIMB009145",
+        "nombre_de_la_unidad": "CENTRO MÉDICO LIC. ADOLFO LÓPEZ MATEOS",
+        "nombre_comercial": "CENTRO MÉDICO LIC. ADOLFO LÓPEZ MATEOS",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "TOLUCA DE LERDO",
+        "municipio": "TOLUCA",
+        "entidad": "MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.0188783,
+          19.5936922
+        ]
+      },
+      "properties": {
+        "clues_imb": "MCIMB009203",
+        "nombre_de_la_unidad": "HOSPITAL GENERAL LAS AMÉRICAS",
+        "nombre_comercial": "HOSPITAL GENERAL LAS AMÉRICAS",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL GENERAL",
+        "localidad": "ECATEPEC DE MORELOS",
+        "municipio": "ECATEPEC DE MORELOS",
+        "entidad": "MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.989443,
+          19.387708
+        ]
+      },
+      "properties": {
+        "clues_imb": "MCIMB009215",
+        "nombre_de_la_unidad": "HOSPITAL GENERAL LA PERLA NEZAHUALCOYOTL",
+        "nombre_comercial": "HOSPITAL GENERAL LA PERLA NEZAHUALCOYOTL",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL GENERAL",
+        "localidad": "CIUDAD NEZAHUALCOYOTL",
+        "municipio": "NEZAHUALCOYOTL",
+        "entidad": "MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.9726375,
+          19.44222
+        ]
+      },
+      "properties": {
+        "clues_imb": "MCIMB012201",
+        "nombre_de_la_unidad": "HOSPITAL MATERNO INFANTIL VICENTE GUERRERO CHIMALHUACÁN",
+        "nombre_comercial": "HOSPITAL MATERNO INFANTIL VICENTE GUERRERO CHIMALHUACÁN",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "CHIMALHUACAN",
+        "municipio": "CHIMALHUACAN",
+        "entidad": "MEXICO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.088196,
+          19.814534
+        ]
+      },
+      "properties": {
+        "clues_imb": "MCIMB012283",
+        "nombre_de_la_unidad": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DE ZUMPANGO",
+        "nombre_comercial": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DE ZUMPANGO",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "ZUMPANGO DE OCAMPO",
+        "municipio": "ZUMPANGO",
+        "entidad": "IMIEM",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.855389,
+          19.3186644
+        ]
+      },
+      "properties": {
+        "clues_imb": "MCIMB012295",
+        "nombre_de_la_unidad": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD IXTAPALUCA",
+        "nombre_comercial": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD IXTAPALUCA",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "ZOQUIAPAN",
+        "municipio": "IXTAPALUCA",
+        "entidad": "HRAES",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.154067,
+          19.692886
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB001403",
+        "nombre_de_la_unidad": "HOSPITAL DE LA MUJER",
+        "nombre_comercial": "HOSPITAL DE LA MUJER",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "MORELIA",
+        "municipio": "MORELIA",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.105271,
+          19.731491
+        ]
+      },
+      "properties": {
+        "clues_imb": "MNIMB003590",
+        "nombre_de_la_unidad": "HOSPITAL GENERAL \"DR MIGUEL SILVA\"",
+        "nombre_comercial": "HOSPITAL GENERAL DR MIGUEL SILVA",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "EL EJIDO DE ATAPANEO",
+        "municipio": "MORELIA",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2022,
+          18.8436
+        ]
+      },
+      "properties": {
+        "clues_imb": "MSIMB002235",
+        "nombre_de_la_unidad": "HOSPITAL DEL NIÑO MORELENSE",
+        "nombre_comercial": "HOSPITAL DEL NIÑO MORELENSE",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "EMILIANO ZAPATA",
+        "municipio": "EMILIANO ZAPATA",
+        "entidad": "MORELOS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.897629,
+          21.5010461
+        ]
+      },
+      "properties": {
+        "clues_imb": "NTIMB001246",
+        "nombre_de_la_unidad": "HOSPITAL CIVIL DR. ANTONIO GONZÁLEZ GUEVARA",
+        "nombre_comercial": "HOSPITAL CIVIL DR. ANTONIO GONZÁLEZ GUEVARA",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL GENERAL",
+        "localidad": "TEPIC",
+        "municipio": "TEPIC",
+        "entidad": "NAYARIT",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.71092,
+          16.9465851
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB001313",
+        "nombre_de_la_unidad": "HE DE LA NIÑEZ OAXAQUEÑA",
+        "nombre_comercial": "HE DE LA NIÑEZ OAXAQUEÑA",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "SAN BARTOLO COYOTEPEC",
+        "municipio": "SAN BARTOLO COYOTEPEC",
+        "entidad": "OAXACA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.713217,
+          16.948091
+        ]
+      },
+      "properties": {
+        "clues_imb": "OCIMB006826",
+        "nombre_de_la_unidad": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DE OAXACA",
+        "nombre_comercial": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "SAN BARTOLO COYOTEPEC",
+        "municipio": "SAN BARTOLO COYOTEPEC",
+        "entidad": "HRAES",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2421342174631,
+          18.9862587164857
+        ]
+      },
+      "properties": {
+        "clues_imb": "PLIMB001780",
+        "nombre_de_la_unidad": "HOSPITAL GENERAL DR EDUARDO VAZQUEZ N",
+        "nombre_comercial": "HOSPITAL GENERAL DR EDUARDO VAZQUEZ N",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL GENERAL",
+        "localidad": "HEROICA PUEBLA DE ZARAGOZA",
+        "municipio": "PUEBLA",
+        "entidad": "PUEBLA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4396876072682,
+          18.4769822872233
+        ]
+      },
+      "properties": {
+        "clues_imb": "PLIMB004720",
+        "nombre_de_la_unidad": "HOSPITAL DE LA MUJER Y NEONATOLOGÍA",
+        "nombre_comercial": "HOSPITAL DE LA MUJER Y NEONATOLOGÍA",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "TEHUACAN",
+        "municipio": "TEHUACAN",
+        "entidad": "PUEBLA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2443939045778,
+          19.035013168164
+        ]
+      },
+      "properties": {
+        "clues_imb": "PLIMB005205",
+        "nombre_de_la_unidad": "HOSPITAL DE LA NIÑEZ POBLANA",
+        "nombre_comercial": "HOSPITAL DE LA NIÑEZ POBLANA",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "SAN ANDRES CHOLULA",
+        "municipio": "SAN ANDRES CHOLULA",
+        "entidad": "PUEBLA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.1987048638255,
+          19.0866662333438
+        ]
+      },
+      "properties": {
+        "clues_imb": "PLIMB005700",
+        "nombre_de_la_unidad": "HOSPITAL DE TRAUMATOLOGÍA Y ORTOPEDIA DOCTOR Y GENERAL RAFAEL MORENO VALLE",
+        "nombre_comercial": "HOSPITAL DE TRAUMATOLOGÍA Y ORTOPEDIA DOCTOR Y GENERAL RAFAEL MORENO VALLE",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "HEROICA PUEBLA DE ZARAGOZA",
+        "municipio": "PUEBLA",
+        "entidad": "PUEBLA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.3660201,
+          24.8325414
+        ]
+      },
+      "properties": {
+        "clues_imb": "SLIMB000014",
+        "nombre_de_la_unidad": "HOSPITAL GENERAL DE CULIACÁN",
+        "nombre_comercial": "HOSPITAL GENERAL DE CULIACÁN",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL GENERAL",
+        "localidad": "CULIACAN ROSALES",
+        "municipio": "CULIACAN",
+        "entidad": "SINALOA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.3866778,
+          24.7942929
+        ]
+      },
+      "properties": {
+        "clues_imb": "SLIMB000026",
+        "nombre_de_la_unidad": "HOSPITAL GENERAL CULIACÁN BERNARDO J. GASTELUM",
+        "nombre_comercial": "HOSPITAL GENERAL CULIACÁN BERNARDO J. GASTELUM",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL GENERAL",
+        "localidad": "CULIACAN ROSALES",
+        "municipio": "CULIACAN",
+        "entidad": "SINALOA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "FUERA DE OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.988940190834,
+          25.7713831115781
+        ]
+      },
+      "properties": {
+        "clues_imb": "SLIMB000031",
+        "nombre_de_la_unidad": "HOSPITAL GENERAL LOS MOCHIS",
+        "nombre_comercial": "HOSPITAL GENERAL LOS MOCHIS",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL GENERAL",
+        "localidad": "LOS MOCHIS",
+        "municipio": "AHOME",
+        "entidad": "SINALOA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.399445960662,
+          24.7989989859861
+        ]
+      },
+      "properties": {
+        "clues_imb": "SLIMB002230",
+        "nombre_de_la_unidad": "HOSPITAL PEDIÁTRICO DE SINALOA",
+        "nombre_comercial": "HOSPITAL PEDIÁTRICO DE SINALOA",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "CULIACAN ROSALES",
+        "municipio": "CULIACAN",
+        "entidad": "SINALOA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.452453239813,
+          23.2925109540352
+        ]
+      },
+      "properties": {
+        "clues_imb": "SLIMB002254",
+        "nombre_de_la_unidad": "HOSPITAL GENERAL DE MAZATLÁN",
+        "nombre_comercial": "HOSPITAL GENERAL DE MAZATLÁN",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL GENERAL",
+        "localidad": "MAZATLAN",
+        "municipio": "MAZATLAN",
+        "entidad": "SINALOA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.450464189498,
+          24.7958325532788
+        ]
+      },
+      "properties": {
+        "clues_imb": "SLIMB002493",
+        "nombre_de_la_unidad": "HOSPITAL DE LA MUJER",
+        "nombre_comercial": "HOSPITAL DE LA MUJER",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "CULIACAN ROSALES",
+        "municipio": "CULIACAN",
+        "entidad": "SINALOA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.014679,
+          22.147998
+        ]
+      },
+      "properties": {
+        "clues_imb": "SPIMB002574",
+        "nombre_de_la_unidad": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DR.IGNACIO MORONES PRIETO",
+        "nombre_comercial": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DR.IGNACIO MORONES PRIETO",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "SAN LUIS POTOSI",
+        "municipio": "SAN LUIS POTOSI",
+        "entidad": "SAN LUIS POTOSI",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.98585,
+          22.116164
+        ]
+      },
+      "properties": {
+        "clues_imb": "SPIMB002965",
+        "nombre_de_la_unidad": "HOSPITAL DE LA NIÑEZ Y LA MUJER DR. ALBERTO LÓPEZ HERMOSA",
+        "nombre_comercial": "HOSPITAL DE LA NIÑEZ Y LA MUJER DR. ALBERTO LÓPEZ HERMOSA",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "SAN LUIS POTOSI",
+        "municipio": "SAN LUIS POTOSI",
+        "entidad": "SAN LUIS POTOSI",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.938266,
+          22.164571
+        ]
+      },
+      "properties": {
+        "clues_imb": "SPIMB002970",
+        "nombre_de_la_unidad": "HOSPITAL GENERAL DE SOLEDAD DE GRACIANO SÁNCHEZ",
+        "nombre_comercial": "HOSPITAL GENERAL DE SOLEDAD DE GRACIANO SÁNCHEZ",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL GENERAL",
+        "localidad": "SOLEDAD DE GRACIANO SANCHEZ",
+        "municipio": "SOLEDAD DE GRACIANO SANCHEZ",
+        "entidad": "SAN LUIS POTOSI",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9718024,
+          29.1163811
+        ]
+      },
+      "properties": {
+        "clues_imb": "SRIMB000914",
+        "nombre_de_la_unidad": "HOSPITAL INFANTIL DEL ESTADO DE SONORA",
+        "nombre_comercial": "HOSPITAL INFANTIL DEL ESTADO DE SONORA",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "HERMOSILLO",
+        "municipio": "HERMOSILLO",
+        "entidad": "SONORA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.003861,
+          29.08175
+        ]
+      },
+      "properties": {
+        "clues_imb": "SRIMB002203",
+        "nombre_de_la_unidad": "HOSPITAL GENERAL DEL ESTADO DE SONORA",
+        "nombre_comercial": "HOSPITAL GENERAL DEL ESTADO DE SONORA",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL GENERAL",
+        "localidad": "HERMOSILLO",
+        "municipio": "HERMOSILLO",
+        "entidad": "SONORA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.9527,
+          17.97672
+        ]
+      },
+      "properties": {
+        "clues_imb": "TCIMB000774",
+        "nombre_de_la_unidad": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DEL NIÑO \"DR. RODOLFO NIETO PADRÓN\"",
+        "nombre_comercial": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DEL NIÑO \"DR. RODOLFO NIETO PADRÓN\"",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "VILLAHERMOSA",
+        "municipio": "CENTRO",
+        "entidad": "TABASCO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.9242407,
+          18.0124021
+        ]
+      },
+      "properties": {
+        "clues_imb": "TCIMB000786",
+        "nombre_de_la_unidad": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DR. GUSTAVO A. ROVIROSA PÉREZ",
+        "nombre_comercial": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DR. GUSTAVO A. ROVIROSA PÉREZ",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "VILLAHERMOSA",
+        "municipio": "CENTRO",
+        "entidad": "TABASCO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.98606,
+          17.97764
+        ]
+      },
+      "properties": {
+        "clues_imb": "TCIMB000791",
+        "nombre_de_la_unidad": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DR. JUAN GRAHAM CASASUS",
+        "nombre_comercial": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DR. JUAN GRAHAM CASASUS",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "VILLAHERMOSA",
+        "municipio": "CENTRO",
+        "entidad": "TABASCO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.95339,
+          17.976466
+        ]
+      },
+      "properties": {
+        "clues_imb": "TCIMB000803",
+        "nombre_de_la_unidad": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DE LA MUJER",
+        "nombre_comercial": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DE LA MUJER",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "VILLAHERMOSA",
+        "municipio": "CENTRO",
+        "entidad": "TABASCO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.920879,
+          18.0141707
+        ]
+      },
+      "properties": {
+        "clues_imb": "TCIMB000815",
+        "nombre_de_la_unidad": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DE SALUD MENTAL VILLAHERMOSA",
+        "nombre_comercial": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DE SALUD MENTAL VILLAHERMOSA",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL PSIQUIÁTRICO",
+        "localidad": "VILLAHERMOSA",
+        "municipio": "CENTRO",
+        "entidad": "TABASCO",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2168811754731,
+          19.3701977490563
+        ]
+      },
+      "properties": {
+        "clues_imb": "TLIMB001820",
+        "nombre_de_la_unidad": "HOSPITAL GENERAL TLAXCALA LIC. ANSELMO CERVANTES HERNANDEZ",
+        "nombre_comercial": "HOSPITAL GENERAL TLAXCALA LIC. ANSELMO CERVANTES HERNANDEZ",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL GENERAL",
+        "localidad": "SAN MATIAS TEPETOMATITLAN",
+        "municipio": "APETATITLAN DE ANTONIO CARVAJAL",
+        "entidad": "TLAXCALA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2111472899896,
+          19.3682911150653
+        ]
+      },
+      "properties": {
+        "clues_imb": "TLIMB001890",
+        "nombre_de_la_unidad": "HOSPITAL INFANTIL DE TLAXCALA",
+        "nombre_comercial": "HOSPITAL INFANTIL DE TLAXCALA",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "SAN MATIAS TEPETOMATITLAN",
+        "municipio": "APETATITLAN DE ANTONIO CARVAJAL",
+        "entidad": "TLAXCALA",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.163718,
+          23.721794
+        ]
+      },
+      "properties": {
+        "clues_imb": "TSIMB001931",
+        "nombre_de_la_unidad": "HOSPITAL INFANTIL DE TAMAULIPAS",
+        "nombre_comercial": "HOSPITAL INFANTIL DE TAMAULIPAS",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "CIUDAD VICTORIA",
+        "municipio": "VICTORIA",
+        "entidad": "TAMAULIPAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.137855,
+          23.748326
+        ]
+      },
+      "properties": {
+        "clues_imb": "TSIMB001955",
+        "nombre_de_la_unidad": "HOSPITAL GENERAL DR. NORBERTO TREVIÑO ZAPATA",
+        "nombre_comercial": "HOSPITAL GENERAL DR. NORBERTO TREVIÑO ZAPATA",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL GENERAL",
+        "localidad": "CIUDAD VICTORIA",
+        "municipio": "VICTORIA",
+        "entidad": "TAMAULIPAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.859497,
+          22.253176
+        ]
+      },
+      "properties": {
+        "clues_imb": "TSIMB002520",
+        "nombre_de_la_unidad": "HOSPITAL GENERAL DE TAMPICO DR. CARLOS CANSECO",
+        "nombre_comercial": "HOSPITAL GENERAL DE TAMPICO DR. CARLOS CANSECO",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL GENERAL",
+        "localidad": "TAMPICO",
+        "municipio": "TAMPICO",
+        "entidad": "TAMAULIPAS",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.107735,
+          23.761924
+        ]
+      },
+      "properties": {
+        "clues_imb": "TSIMB002865",
+        "nombre_de_la_unidad": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD EN CD VICTORIA BICENTENARIO 2010",
+        "nombre_comercial": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD EN CD VICTORIA BICENTENARIO 2010",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "CIUDAD VICTORIA",
+        "municipio": "VICTORIA",
+        "entidad": "HRAES",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.923411,
+          19.544702
+        ]
+      },
+      "properties": {
+        "clues_imb": "VZIMB002325",
+        "nombre_de_la_unidad": "CENTRO ESTATAL DE CANCEROLOGÍA DR. MIGUEL DORANTES MESA",
+        "nombre_comercial": "CENTRO ESTATAL DE CANCEROLOGÍA DR. MIGUEL DORANTES MESA",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "XALAPA-ENRIQUEZ",
+        "municipio": "XALAPA",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.935888,
+          19.551728
+        ]
+      },
+      "properties": {
+        "clues_imb": "VZIMB002330",
+        "nombre_de_la_unidad": "CENTRO DE ALTA ESPECIALIDAD  DR. RAFAEL LUCIO",
+        "nombre_comercial": "CENTRO DE ALTA ESPECIALIDAD DR. RAFAEL LUCIO",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "XALAPA-ENRIQUEZ",
+        "municipio": "XALAPA",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.132028,
+          19.185533
+        ]
+      },
+      "properties": {
+        "clues_imb": "VZIMB005533",
+        "nombre_de_la_unidad": "HOSPITAL DE ALTA ESPECIALIDAD DE VERACRUZ",
+        "nombre_comercial": "HOSPITAL DE ALTA ESPECIALIDAD DE VERACRUZ",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "VERACRUZ",
+        "municipio": "VERACRUZ",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": "original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5819034,
+          21.0193421
+        ]
+      },
+      "properties": {
+        "clues_imb": "YNIMB000012",
+        "nombre_de_la_unidad": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DE LA PENÍNSULA DE YUCATÁN",
+        "nombre_comercial": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DE LA PENÍNSULA DE YUCATÁN",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "MERIDA",
+        "municipio": "MERIDA",
+        "entidad": "HRAES",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6419666,
+          20.9018891
+        ]
+      },
+      "properties": {
+        "clues_imb": "YNIMB000036",
+        "nombre_de_la_unidad": "HOSPITAL DE ALTA ESPECIALIDAD AGUSTÍN O´HORÁN",
+        "nombre_comercial": "HOSPITAL DE ALTA ESPECIALIDAD AGUSTÍN O´HORÁN",
+        "nivel_atencion": "TERCER NIVEL",
+        "color": "#DC2626",
+        "nombre_de_tipologia": "HOSPITAL ESPECIALIZADO",
+        "localidad": "MERIDA",
+        "municipio": "MERIDA",
+        "entidad": "YUCATAN",
+        "direccion": null,
+        "codigo_postal": null,
+        "estatus_de_operacion": "EN OPERACION",
+        "organ_ro": null
+      }
+    }
+  ]
+}
